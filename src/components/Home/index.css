@@ -1,0 +1,29 @@
+.register-btn {
+  height: 40px;
+  border-radius: 5px;
+  width: 238px;
+}
+
+#homeSlide>.slick-slider>.slick-prev {
+  left: -85px;
+  z-index: 999;
+  top: 200px;
+}
+
+#homeSlide>.slick-slider>.slick-next {
+  right: -35px;
+  z-index: 999;
+  top: 200px;
+}
+
+@media only screen and (max-width: 678px) {
+  .blackbox {
+    width: 100% !important;
+  }
+}
+
+/* @media only screen and (max-width: 800px) {
+  .home-page, .footer {
+    width: 109% !important;
+  }
+} */

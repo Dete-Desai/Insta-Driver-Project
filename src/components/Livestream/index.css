@@ -1,0 +1,1109 @@
+/* Livestream section */
+.livestream-relative {
+  position: relative;
+}
+
+.no-livestream {
+  padding: 8rem 4rem;
+  text-align: center;
+}
+
+.livestream-header {
+  width: 100%;
+  margin-top: 3rem;
+}
+
+.livestream-section1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+}
+
+.livestream-section1 div a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #797878;
+  font-size: 16px;
+}
+
+.livestream-section1 div a i {
+  color: #5b5b5b;
+}
+
+.livestream-section1 .custom-active {
+  color: #ffbb00;
+}
+
+.livestream-section1 div a:hover,
+.livestream-section1 .custom-hover {
+  border-bottom: 2px solid #ffbb00;
+  text-decoration: none;
+}
+
+.livestream-section1 div a span {
+  font-size: 18px;
+}
+
+.livestream-section1 div a:hover span {
+  font-weight: bolder;
+}
+
+.livestream-section1 .custom-bold {
+  font-weight: bolder;
+}
+
+.livestream-header .custom-color {
+  color: #ffbb00;
+}
+
+.livestream-create {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.has-search input {
+  border-radius: 20px;
+  border: 1px solid #ffbb00;
+  padding: 0.5rem;
+  padding-left: 2.375rem;
+  width: 100%;
+}
+
+.has-search input:hover {
+  border-radius: 20px;
+}
+
+.has-search input:focus {
+  outline-style: none;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
+
+.livestream-create .btn-create {
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+  background-color: #ffbb00;
+  font-weight: 500;
+  padding: 7px 5px;
+  color: #5B5B5B;
+}
+
+.livestream-create .btn-create:hover {
+  text-decoration: none;
+  color: #ffbb00;
+  background-color: #5b5b5b;
+}
+
+.livestream-create span i {
+  font-size: 18px;
+}
+
+.livestream-body {
+  width: 100%;
+  padding-top: 2rem;
+}
+
+.width-100 {
+  width: 100% !important;
+}
+
+.livestream-user-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.livestream-user-img {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 1.7rem;
+  margin-bottom: 0.5rem;
+}
+
+.livestream-user-btn {
+  color: #4b4747;
+  font-weight: 900;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.livestream-user-counts {
+  padding: 0.8rem 0;
+}
+
+.livestream-user-counts .flex-horizontal i {
+  color: #ffbb00;
+  margin-right: 0.5rem;
+}
+
+.livestream-user-counts .badge {
+  color: #fff;
+  background-color: #5b5b5b;
+  border-radius: 50%;
+}
+
+.livestream-user-counts .flex-horizontal {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.more-past-stream {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.more-past-stream a {
+  color: #c0941f;
+  background-color: #4b4747;
+  padding: 0.2rem 0.5rem;
+  border-radius: 5px;
+}
+
+.livestream-more-section {
+  margin: 1.8rem 0;
+  height: 200px;
+}
+
+.livestream-more-section h4{
+  font-size: 20px;
+}
+
+.livestream-more-section .more-video {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px
+}
+
+.more-player-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  z-index: 1000;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 1rem 0.5rem;
+  width: 100%;
+  color: #fff;
+  font-size: 14px;
+}
+
+.more-player-wrapper .live-red {
+  background-color: red;
+  color: #fff;
+  padding: 2px;
+  font-weight: bold;
+}
+
+.more-player-wrapper i {
+  margin-right: 5px;
+}
+
+.livestream-player-section {
+  height: 600px;
+  position: relative;
+  border-radius: 8px;
+}
+
+.livestream-next-prev {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0;
+  padding-bottom: 2rem;
+  z-index: 1000;
+}
+
+.livestream-next-prev .player-wrapper-one {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.livestream-next-prev .previous-stream {
+  color: #fff;
+  margin-left: -60px;
+  background-color: #575353;
+  padding: 2px 5px;
+  font-size: 12px;
+  border-radius: 5px;
+}
+
+.livestream-next-prev .next-stream {
+  color: #fff;
+  margin-right: -10px;
+  background-color: #575353;
+  padding: 2px 5px;
+  font-size: 12px;
+  border-radius: 5px;
+}
+
+.livestream-player-section video {
+  border-radius: 12px;
+  width: 100%;
+}
+
+.livestream-player-actions {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-top: 2px solid red;
+  padding: 0.5rem;
+  z-index: 1000;
+}
+
+.livestream-player-actions .player-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 5px;
+  color: #fff;
+  font-size: 15px;
+}
+
+.livestream-player-actions .player-wrapper i {
+  margin-right: 3px;
+}
+
+.livestream-player-actions .live-red,
+.livestream-search-result .search-results-stats .live-red {
+  background-color: red;
+  color: #fff;
+  padding: 2px;
+  font-weight: bold;
+  border-radius: 5px;
+  letter-spacing: 1.5px;
+}
+
+.livestream-player-section #ellipse-popup {
+  width: 150px;
+  height: 110px;
+  position: absolute;
+  bottom: 50px;
+  right: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.livestream-player-section #ellipse-popup span {
+  color: #5b5b5b;
+  padding: 2px 10px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.livestream-player-section #ellipse-popup span:hover {
+  color: #fff;
+  background-color: #5b5b5b;
+}
+
+.livestream-player-section .return-button-left {
+  position: absolute;
+  width: 80px;
+  height: 30px;
+  top: 50px;
+  left: -30px;
+}
+
+
+.livestream-player-section .return-button-right {
+  position: absolute;
+  width: 80px;
+  height: 30px;
+  top: 50px;
+  right: -30px;
+}
+
+.livestream-player-section .return-button-left button,
+.livestream-player-section .return-button-right button {
+  font-size: 12px;
+  color: #fff;
+  background-color: #5d5d5d;
+  letter-spacing: 1px;
+  padding: 5px;
+  border: none;
+}
+
+
+.livestream-poster {
+  padding: 1.5rem;
+}
+
+.livestream-poster .poster-title {
+  padding-left: 1rem;
+}
+
+.livestream-poster h4 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #575353;
+  line-height: 27px;
+  margin: 0;
+  margin-bottom: 3px;
+}
+
+.livestream-poster span {
+  font-size: 14px;
+}
+
+.livestream-poster p {
+  font-size: 14px;
+  line-height: 1;
+  background-color: #edf5fa;
+  padding: 10px 1rem;
+  margin-top: 5px;
+  font-weight: 400;
+  line-height: 25.2px;
+}
+
+.livestream-poster .stretch-less {
+  width: 70%;
+}
+
+.livestream-message-area {
+  border-radius: 8px;
+  border: 1px solid #d7d5d5;
+  background: #fff;
+}
+
+.livestream-message-area .livestream-message-inbox {
+  padding: 1rem 1rem;
+  max-height: 480px;
+  overflow-y: scroll;
+}
+
+.livestream-message-inbox .livestream-userprofile,
+.livestream-search-result .livestream-userprofile {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.livestream-message-inbox .livestream-userprofile,
+.livestream-message-inbox .livestream-user-message {
+  margin: 0;
+  padding: 0;
+}
+
+.livestream-message-inbox .livestream-userprofile-img,
+.livestream-search-result .livestream-userprofile-img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 0.5rem;
+}
+
+.livestream-message-inbox .livestream-userprofile span,
+.livestream-search-result .livestream-userprofile span {
+  margin-right: 0.5rem;
+}
+
+.livestream-message-inbox .livestream-userprofile .user-at,
+.livestream-search-result .livestream-userprofile .user-at {
+  font-size: 10px;
+}
+
+.livestream-message-inbox .livestream-userprofile .user-at-font,
+.livestream-search-result .livestream-userprofile .user-at-font {
+  font-size: 12px;
+  color: #3b3b3b;
+  font-weight: bolder;
+}
+
+.livestream-message-inbox .livestream-userprofile .user-at-fade,
+.livestream-search-result .livestream-userprofile .user-at-fade {
+  color: #a8a8a8;
+}
+
+.livestream-message-inbox .livestream-user-message {
+  padding-left: 1.2rem;
+}
+
+.livestream-message-inbox .livestream-user-message p {
+  color: #101010;
+  font-size: 12.99px;
+  font-weight: 100;
+}
+
+.livestream-message-inbox .livestream-user-message .message-p {
+  margin-top: -5px;
+  padding: 0.3rem 0.5rem;
+}
+
+.livestream-message-inbox .livestream-user-message .message-gray {
+  margin-top: -5px;
+  background-color: #f5f5f5;
+  padding: 0.3rem 0.5rem;
+}
+
+.livestream-message-area .livestream-text-area {
+  background-color: #ededed;
+  padding: 1rem;
+}
+
+.livestream-message-area .livestream-text-input {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-radius: 10px;
+}
+
+.livestream-message-area .custom-input-live {
+  border: none;
+  width: 90%;
+  padding: 0.8rem;
+  border-top-left-radius: 10px;
+  background: #fff;
+}
+.livestream-message-area .custom-input-live:focus {
+  outline-style: none;
+}
+
+.livestream-message-area .livestream-text-input span i {
+  padding: 1rem;
+}
+
+.livestream-message-area .livestream-text-input .livestream-send {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.span-smaller {
+  font-size: 12px;
+}
+
+.livestream-search-result .result-header {
+  color: #575353;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.livestream-search-result .card-player {
+  width: 100%;
+  height: 180px;
+}
+
+.livestream-search-result .search-videos {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.livestream-search-result .search-results-stats {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.livestream-search-result .search-results-stats span {
+  margin-right: .8rem;
+}
+
+.livestream-search-result .search-results-stats .live-red {
+  font-size: 11px;
+}
+
+.livestream-search-result .search-results-stats span i {
+  margin-right: 5px;
+}
+
+.livestream-search-result .search-result-info h4{
+  font-size: 16px;
+  font-weight: 600;
+  color: #575353;
+}
+
+.livestream-search-result .search-result-info p {
+  font-size: 12.9px;
+  color: #101010;
+}
+
+.livestream-search-result .search-results-stats .stream-ended {
+  font-size: 10px
+}
+
+.livestream-search-result .search-results-stats .stream-ended .time {
+  background-color: #969393;
+  color: #fff;
+  padding: 2px;
+  border-radius: 2px;
+  margin-left: 1.2rem;
+  font-family: Roboto sans-serif;
+  font-size: 12px;
+}
+
+.register-popup {
+  position: absolute;
+  top: 100px;
+  left: 300px;
+  width: 500px;
+  height: 400px;
+  background-color: #3b3b3b;
+  color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  z-index: 1001;
+}
+
+.register-popup .btn-x {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.register-popup .btn-x span {
+  background-color: #ffbb00;
+  padding: 4px 11px;
+  color: #3b3b3b;
+  border-radius: 50%;
+  font-size: 16px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.register-popup .register-msg {
+  padding: 10px;
+}
+
+.register-popup ul {
+  list-style: none;
+}
+
+.register-popup ul li {
+  padding: 0.2rem .7rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.register-popup .register-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.register-popup .register-links a {
+  padding: .4rem .6rem;
+  margin-top: 1rem;
+  font-size: 15px;
+  background-color: #fff;
+  color: #3b3b3b;
+  width: 70%;
+  font-weight: 600;
+}
+
+/* when livestream when user is logged in */
+.livestream-navigator {
+  padding: 2rem 0;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #5b5b5b;
+}
+
+.livestream-navigator .wantsto,
+.livestream-navigator .agreeto  {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.livestream-navigator .stream-access {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+}
+
+.livestream-navigator .stream-access .use-mic,
+.livestream-navigator .stream-access .use-cam {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.livestream-navigator .stream-access .use-mic button,
+.livestream-navigator .stream-access .use-cam button,
+.livestream-navigator .actions button{
+  border: none;
+  padding: .5rem 2rem;
+  border-radius: 5px;
+  margin-top: 1rem;
+  background-color: #e5e5e5;
+  font-weight: 600;
+  color: #5b5b5b;
+}
+
+.livestream-navigator .stream-access .use-mic i,
+.livestream-navigator .stream-access .use-cam i {
+  margin-top: .8rem;
+  font-size: 2rem;
+}
+
+.livestream-navigator .warning p {
+  padding: 1rem;
+  margin-top: 10px;
+}
+
+.livestream-navigator .actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.bg-cyan {
+  background: #EDF5FA;
+  width: 100%;
+}
+
+.livestream-setup .intro {
+  padding: 1rem 3rem;
+  color: #5B5B5B;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.livestream-setup .stream-to-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.livestream-setup .stream-to-row .helper-text h4,
+.livestream-setup .description h5{
+  font-size: 15px;
+  color: #5B5B5B;
+  font-weight: 500;
+  padding-left: 5px;
+}
+
+.livestream-setup .stream-to-row .helper-text p,
+.livestream-setup .description p {
+  font-size: 13px;
+  color: #969393;
+  padding-left: 5px;
+}
+
+.livestream-setup .description {
+  padding-left: 2rem;
+}
+
+.livestream-setup .description p {
+  margin: 0;
+  font-size: 13px;
+}
+
+.livestream-setup .description input, 
+.livestream-setup .description textarea{
+  background-color: #EDF5FA;
+  font-size: 14px;
+}
+
+.livestream-setup .description .bg-gray{
+  background-color: #fafafa !important;
+}
+
+.livestream-setup .description span {
+  float: right;
+}
+
+.livestream-setup .description textarea {
+  height: 99.83px;
+}
+
+.livestream-setup .user-video-img {
+  width: 100%;
+  height: 540px;
+  object-fit: cover;
+}
+
+.livestream-setup .start-livestream {
+  background: #F61414;
+  color: #fff;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 5px;
+  width: 40%;
+  margin-top: 10px;
+  margin-bottom: 80px;
+  font-weight: 700;
+}
+
+.livestream-setup .start-livestream:focus {
+  outline: none;
+}
+
+.livestream-setup .video-wrapper {
+  position: relative;
+}
+
+.livestream-setup .video-wrapper span {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #F61414;
+  color: #fff;
+  padding: 5px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.livestream-setup .user-live {
+  position: relative;
+}
+
+.livestream-setup .end-livestream {
+  position: absolute;
+  top: 100px;
+  left: 400px;
+  width: 400px;
+  height: 250px;
+  background-color: #fff;
+  border: .5px solid #5b5b5b;
+  border-radius: 5px;
+}
+
+.livestream-setup .end-livestream .title{
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 1rem;
+  color: #5B5B5B;
+}
+
+.livestream-setup .end-livestream .warning {
+  padding: 1.5rem 15px;
+  font-size: 14px;
+  color: #5b5b5b;
+  text-align: center;
+}
+
+.livestream-setup .end-livestream .actions {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.livestream-setup .end-livestream .actions button {
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #5B5B5B;
+  padding: 5px 10px;
+  background-color: #e5e5e5;
+}
+
+.livestream-setup .end-livestream .actions button:focus {
+  outline-style: none;
+}
+
+
+/* Video call route */
+.bg-gray {
+  background-color: #efefef
+}
+
+.video-call-vectors {
+  position: relative;
+  width: 100% !important;
+  height: 100%;
+}
+
+.curved-image-one, .curved-image-two, .curved-image-three {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.curved-image-one {
+  width: 100%;
+  margin: 0;
+  object-fit: contain;
+  margin-left: -74px;
+}
+
+.curved-image-two {
+  width: 88%;
+  margin: 0;
+  margin-left: -70px;
+  object-fit: contain;
+}
+
+.curved-image-three {
+  width: 93%;
+  margin: 0;
+  object-fit: contain;
+  margin-left: -70px;
+}
+
+.social-connect {
+  position: absolute;
+  color: #fff;
+  font-size: 20px;
+  z-index: 1000;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  padding-left: 2rem;
+  padding-right: 8rem;
+}
+
+.image-iphone-div {
+  padding: 3rem;
+  width: 100%;
+  height: 100%;
+}
+
+.image-iphone {
+  height: 500px;
+  object-fit: fill;
+}
+
+.video-signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  padding: 2rem;
+}
+
+.video-signup .video-signup-text {
+  font-size: 27px;
+  font-weight: 700;
+  text-align: left;
+  padding: 1rem 5rem;
+}
+
+.video-signup .video-signup-link {
+  padding: 6px;
+  color: #000;
+  background-color: #ffbb00;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.other-than {
+  padding: 3rem 2rem;
+  font-size: 25px;
+  font-weight: 600;
+  text-align: left;
+  color: #5B5B5B;
+}
+
+.tap-the-profile {
+  padding: 1rem;
+  font-size: 17.44px;
+  color: #000 45%;
+}
+
+.users-call-container {
+  display: grid;
+  grid-template-columns:repeat(2, 1fr);
+}
+
+.users-call-container .users-call-box {
+  width: 123.8px;
+  height: 123.8px;
+  border-radius: 2px;
+  margin-bottom: 10px;
+  margin-right: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 12px;
+  padding: 10px 0;
+}
+
+.users-call-container .users-call-box:hover {
+  border-radius: 10px;
+  background-color: #ffbb00;
+  color: #fff;
+  cursor: pointer;
+}
+
+.users-call-container .users-call-box:hover .user-name{
+  color: #000000
+}
+
+.users-call-container .users-call-box:hover .user-location{
+  color: #fff
+}
+
+.users-call-container .users-call-box .users-call-box-img {
+  width: 4rem;
+  height: 4rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.users-call-container .users-call-box .user-name {
+  font-weight: 900;
+}
+
+.users-call-container .users-call-box .username {
+  font-size: 11px;
+}
+
+.users-call-container .users-call-box .user-location {
+  margin-top: 2px;
+  border-top: .5px solid #ccc;
+  color: #ffbb00;
+  font-weight: 800;
+}
+
+#map-box-2 {
+  width: 100%;
+  height: 420px;
+  background: #f5f5f5;
+}
+
+.conference-img-box {
+  padding: 3rem;
+  width: 100%;
+}
+
+.conference-img {
+  width: 100%;
+}
+
+.conference-text {
+  text-align: left;
+  padding: 6rem;
+  font-size: 28px;
+  font-weight: 600;
+  color: #5B5B5B;
+}
+
+
+@media (max-width: 900px) {
+  .info-btn button {
+    font-size: 0.4rem;
+    padding: 0.4rem;
+  }
+  .register-popup {
+    top: 100px;
+    left: 120px;
+    padding: .2rem;
+  }
+  .livestream-setup .end-livestream {
+    top: 100px;
+    left: 240px;
+  }
+  
+}
+
+@media (max-width: 538px) {
+  .livestream-setup .end-livestream {
+    top: 680px;
+    left: 30px;
+  }
+  .livestream-setup .user-video-img {
+    width: 340px;
+    height: 540px;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .info-btn button {
+    font-size: 0.09rem;
+    padding: 0.2rem;
+  }
+  video {
+    object-fit: cover;
+  }
+  .livestream-player-section {
+    margin-top: 140px;
+  }
+  .livestream-next-prev .next-stream {
+    margin-right: 0;
+  }
+  .livestream-next-prev .previous-stream {
+    margin-left: 0;
+  }
+  .register-popup {
+    top: 1350px;
+    left: 20px;
+    width: 280px;
+    height: 280px;
+    padding: .2rem;
+  }
+  .register-popup .btn-x span {
+    padding: 5px 8px;
+    font-size: 10px;
+    font-weight: bolder;
+  }
+  .register-popup .register-msg {
+    padding: 10px 16px;
+    font-size: 12px;
+  }
+  .register-popup ul li {
+    margin: 0;
+    padding: 0 2px;
+    font-size: 12px;
+  }
+  .register-popup .register-links {
+    padding: 0;
+  }
+  .register-popup .register-links a {
+    padding: 0;
+    margin-top: 8px;
+    font-size: 11px;
+    width: 70%;
+    font-weight: 600;
+  }
+  #padd-5x {
+    padding: 0 !important;
+  }
+  .livestream-setup .end-livestream {
+    top: 680px;
+    left: 20px;
+    width: 350px;
+  }
+  .livestream-setup .user-video-img {
+    width: 340px;
+    height: 540px;
+    margin-bottom: 1rem;
+  }
+}

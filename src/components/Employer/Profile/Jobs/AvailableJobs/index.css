@@ -1,0 +1,82 @@
+#cardItem {
+  border-radius: 15px !important;
+  width: 366px !important;
+  min-height: 550px !important;
+  border: 0.5px solid #ffbb00 !important;
+}
+
+.category-box {
+  text-align: center !important;
+  background-color: #efefef !important;
+  color: #5b5b5b !important;
+  width: 186px;
+  font-size: 13px !important;
+  border-radius: 20px !important;
+  white-space: nowrap;
+  overflow: hidden;
+  height: 30px;
+  font-weight: 500 !important;
+  text-overflow: ellipsis;
+}
+
+.tap-shortlist {
+  border: none !important;
+  color: white !important;
+  text-align: center;
+  font-size: 16px;
+  width: 366px;
+  height: 40px;
+  background: #6b6565;
+  border-radius: 5px;
+}
+
+.textStyle {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.textHeading {
+  color: #3b3b3b;
+  font-size: 12px;
+}
+
+.memberBox {
+  width: 366px;
+  margin-left: 0.2rem;
+  background: #edf5fa;
+}
+
+.viewMoreBtn {
+  width: 76px;
+  height: 30px;
+  background: #ffffff;
+  box-shadow: inset 0px -1.76711px 3.53423px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  font-size: 10px;
+  color: #ffbb00 !important;
+}
+
+.tap-express {
+  border: none !important;
+  color: white !important;
+  text-align: center;
+  font-size: 16px;
+  width: 366px;
+  height: 40px;
+  background: #f8bd00;
+  margin-left: 3px;
+}
+
+.tap-express:hover {
+  background: #ffbb00;
+}
+
+
+.profile-avatar {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid #FFBB00;
+  margin-right: 5px;
+}

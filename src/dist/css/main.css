@@ -1,0 +1,3089 @@
+body::-webkit-scrollbar {
+  width: 15px;
+  background-color: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #d4d4d4;
+  border-radius: 2px;
+}
+
+.logout-dropdown {
+  position: relative;
+  color: black;
+  width: "100%";
+  height: 200;
+  min-width: "100px";
+  max-width: "200px";
+}
+
+.logout-dropdown:hover {
+  color: black;
+  height: 200;
+  background-color: rgb(212, 212, 212);
+}
+
+.logout-name {
+  color: white;
+}
+
+.logout-name:hover {
+  color: black;
+}
+
+.component-container {
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+}
+
+/*---------- MORE INFO PAGE ------------*/
+
+.list-nav {
+  position: absolute;
+  text-decoration: none;
+  padding: 5px 0;
+  width: 1840px;
+  height: 87px;
+  background-color: #3b3b3b;
+}
+
+.list-nav-body {
+  position: absolute;
+  text-decoration: none;
+  padding: 5px 0;
+  width: 1840px;
+  top: 85px;
+  background-color: #525659;
+}
+
+.more-info-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 1350px;
+  height: 677px;
+  background-color: white;
+}
+
+.more-info-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.more-info-container {
+  padding: 2px 16px;
+}
+
+.more-info-btn {
+  position: absolute;
+  background-color: #4caf50;
+  /* Green */
+  border: none;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  width: 220px;
+  height: 40px;
+  top: 23.25px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.more-info-btn-state {
+  background-color: white;
+  color: black;
+  border: 2px solid #e7e7e7;
+}
+
+.more-info-btn-hover:hover {
+  background-color: #ffbb00;
+}
+
+.more-info-btn-active {
+  background-color: #ffbb00;
+}
+
+/*---------- RECRUITMENT ------------*/
+
+.divider {
+  border-bottom: 2px solid black;
+}
+
+.carousel-control-prev {
+  margin-left: -41px;
+}
+
+.carousel-control-next {
+  margin-right: -37px;
+}
+
+.main-carousel {
+  max-height: 350px;
+  max-width: 462px;
+}
+
+.use-message {
+  cursor: pointer;
+}
+
+.input-container {
+  display: -ms-flexbox;
+  /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+  margin-top: 8px;
+}
+
+.non-box {
+  border: 1px solid white;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #efefef !important;
+  color: #5b5b5b;
+  width: 176px;
+  font-size: 15px;
+  border-radius: 30px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  height: 30px;
+  font-weight: 500;
+}
+
+.carousel-card-text {
+  font-size: 15px;
+  max-width: 415px;
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: -5px;
+}
+
+.non-box:hover {
+  color: #5b5b5b;
+  border: none;
+}
+
+.custom-box {
+  border: 1px solid white;
+  background-color: #a9aaaa;
+  color: rgb(29, 27, 27);
+  width: 400px;
+  font-size: 15px;
+  border-radius: 30px;
+}
+
+/* .carousel-indicators li {
+width: 10px;
+height: 10px;
+border-radius: 100%;
+} */
+
+.carousel-indicators li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 10px;
+  text-indent: 0;
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+  background-color: grey;
+  position: relative;
+  bottom: -50px;
+}
+
+.carousel-indicators .active {
+  width: 10px;
+  height: 10px;
+  margin: 10px;
+  background-color: #914a9c;
+}
+
+#myTextarea {
+  max-width: 462px;
+  font-size: 15px;
+  background-color: #edf5fa;
+}
+
+.car-card {
+  width: 462px;
+  margin: 0 auto;
+  height: 201px;
+  background: #edf5fa;
+}
+
+.template-message {
+  font-size: 17px;
+  font-weight: 500;
+  margin-left: 5px;
+  color: #575353;
+}
+
+.top-ban {
+  font-size: 15px !important;
+  color: #5b5b5b;
+}
+
+.manage-posts {
+  color: #575353;
+  border: 1px solid #ffbb00;
+  max-width: 250px;
+  font-weight: 500;
+  height: 40px;
+}
+
+.header-text {
+  font-size: 18px;
+}
+
+.card-text {
+  font-size: 15px;
+  max-width: 409px;
+  display: inline-block;
+  /* text-align:center; */
+}
+
+.normal-text {
+  font-size: 15px;
+}
+
+.cus-space {
+  height: 26px;
+}
+
+.table-sm {
+  max-width: 400px;
+  margin: 0 auto;
+  border-collapse: separate;
+  border-spacing: 29px 10px;
+  /* display: none; */
+}
+
+@media only screen and (max-width: 1640px) {
+  .custom-charnum {
+    margin-left: 160px;
+  }
+  .select__arrow2 {
+    right: 170px !important;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .select__arrow2 {
+    right: 40px !important;
+  }
+  .custom-charnum {
+    display: none;
+  }
+  #charNum {
+    display: none;
+  }
+  .table-sm {
+    position: relative;
+    right: 20px;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  .select__arrow2 {
+    right: 5px !important;
+  }
+  .table-sm {
+    position: relative;
+    right: 50px;
+  }
+}
+
+@media only screen and (max-width: 412px) {
+  .select__arrow2 {
+    right: 5px !important;
+  }
+  .table-sm {
+    position: relative;
+    right: 50px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .custom-charnum {
+    display: none;
+  }
+  #charNum {
+    display: none;
+  }
+  .table-sm {
+    position: relative;
+    right: 30px;
+    border-spacing: 9px 0px !important;
+  }
+  .non-box {
+    width: 156px;
+  }
+}
+
+/*---------- END RCRUITMENT ------------*/
+
+/*---------- Nav Box ------------*/
+
+.main-nav-box {
+  background-color: rgba(105, 103, 103, 0.37);
+  /* Green */
+  border: none;
+  border-radius: 5px;
+  color: rgb(41, 39, 39);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 4px 2px;
+  height: 40px;
+  width: 160px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.nav-box {
+  background-color: rgba(255, 255, 255, 0.295);
+  color: black;
+  border: 2px solid rgb(230, 163, 18);
+}
+
+.text-space {
+  background-color: white;
+  /* Green */
+  border: none;
+  border-radius: 5px;
+  top: 4px;
+  bottom: 30px;
+  height: 30px;
+  width: 10px;
+}
+
+.button-text {
+  color: rgb(41, 39, 39);
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  font-size: 14px;
+  top: 8px;
+}
+
+.button-text1 {
+  color: rgb(117, 111, 111);
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  top: 10px;
+}
+
+/*----------  EMPLOYER PROFILE ------------*/
+
+.cus-space {
+  height: 30px;
+}
+
+.nav-item-cs {
+  width: 150px !important;
+}
+
+.nav-item-cs-button {
+  width: 150px !important;
+}
+
+.nav-item-cus {
+  width: 260px;
+}
+
+.nav-link-cus {
+  border-radius: 10px;
+  height: 40px;
+  color: white;
+  background-color: #ffbb00;
+  font-weight: 500;
+  border: none;
+}
+
+#nav-item a.active {
+  border-bottom-color: #ffbb00;
+  border-bottom: 5px solid #ffbb00;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-link-cs a.hover {
+  background-color: none;
+}
+
+.driver-profile-background-color {
+  background-color: #b7ecf3;
+}
+
+/*----------  Division Positions ------------*/
+
+.driver-profile-position {
+  left: 3%;
+}
+
+.driver-profile-button-position {
+  left: 18%;
+}
+
+.driver-profile-button-position1 {
+  left: 12%;
+}
+
+.driver-profile-button-position2 {
+  left: 6%;
+}
+
+.driver-profile-button-position3 {
+  left: 0%;
+}
+
+.driver-profile-button-position4 {
+  right: 3%;
+}
+
+.driver-profilecard-position {
+  right: 25%;
+}
+
+.div-position {
+  left: 19%;
+}
+
+.div-position2 {
+  left: 32%;
+}
+
+.div-position3 {
+  left: 45%;
+}
+
+.filter-position3 {
+  left: 37%;
+}
+
+/*----------  EMPLOYER PROFILE ------------*/
+
+/*----------  EMPLOYER SIDEBAR MOBILE VIEW ------------*/
+
+#employer-mobile-sidebar {
+  background-color: #914a9c;
+}
+
+recruitment-text {
+  color: #edf5fa;
+}
+
+/*----------  SEARCH BAR ------------*/
+
+.Searchinput[type="text"] {
+  width: 300px;
+  box-sizing: border-box;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+}
+
+/*----------  SYSTEM BUTTONS ------------*/
+
+/*----------  System Dropdown Button ------------*/
+
+.Social-button {
+  border: none;
+  border-radius: 30px;
+  background: #fdefc0;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 26px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  height: 50px;
+  width: 300px;
+}
+
+.social-button1 {
+  background-color: white;
+  border-radius: 30px;
+  color: orange;
+  border: none;
+}
+
+.social-button1-2 {
+  border-radius: 30px;
+  color: orange;
+  border: none;
+}
+
+.social-button3 {
+  background-color: yellow;
+  border-radius: 30px;
+  color: white;
+  border: none;
+}
+
+.social-button-1:hover {
+  background-color: orange;
+  border-radius: 30px;
+  color: black;
+}
+
+.social-button2 {
+  border: none;
+  border-radius: 30px;
+  background: #fdefc0;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 26px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  height: 50px;
+  width: 300px;
+}
+
+.social-button2 {
+  background-color: Orange;
+  border-radius: 30px;
+  color: white;
+  border: none;
+}
+
+.social-button-2:hover {
+  background-color: rgb(117, 76, 0);
+  border-radius: 30px;
+  color: black;
+}
+
+.social-button3 {
+  border: none;
+  border-radius: 30px;
+  background: #fdefc0;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  height: 30px;
+  width: 130px;
+}
+
+.social-button3 {
+  background-color: #fbfb00;
+  border-radius: 30px;
+  color: white;
+  border: none;
+}
+
+.social-button-3:hover {
+  background-color: orange;
+  border-radius: 30px;
+  color: black;
+}
+
+.btn-group .social-button {
+  background-color: orange;
+  /* Green */
+  border: 1px solid black;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 26px;
+  cursor: pointer;
+  width: 200px;
+  height: 60px;
+}
+
+.btn-group .social-button:not(:last-child) {
+  border-right: none;
+  /* Prevent double borders */
+}
+
+.btn-group .social-button:hover {
+  background-color: #c09111;
+  color: black;
+}
+
+.btn-group .social-button1 {
+  background-color: white;
+  /* Green */
+  border: 1px solid black;
+  border-radius: 0;
+  color: rgb(94, 94, 94);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 26px;
+  cursor: pointer;
+  width: 200px;
+  height: 60px;
+}
+
+.btn-group .social-button1:not(:last-child) {
+  border-right: none;
+  /* Prevent double borders */
+}
+
+.btn-group .social-button1:hover {
+  background-color: orange;
+  color: white;
+}
+
+.systemdropdownbutton1 {
+  background-color: #4caf50;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  height: 50px;
+  width: 300px;
+}
+
+.dropdownbuttonhover1 {
+  background-color: white;
+  color: rgb(124, 104, 104);
+  border: 2px solid #e7e7e7;
+}
+
+.dropdownbuttonhover1:hover {
+  background-color: #e7e7e7;
+}
+
+.system-option-dropdown-button1 {
+  background-color: #4caf50;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  height: 36px;
+  width: 250px;
+}
+
+.option-dropdown-button1 {
+  background-color: white;
+  color: rgb(124, 104, 104);
+  border: 2px solid #e7e7e7;
+}
+
+.option-dropdown-button1-hover:hover {
+  background-color: #e7e7e7;
+  border: 2px solid #8acce5;
+}
+
+/*----------  Action Table Buttons ------------*/
+
+/* Action */
+
+.action-view-button {
+  background-color: #4caf50;
+  /* Green */
+  border: none;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  height: 50px;
+  width: 80px;
+}
+
+.action-view-button1 {
+  background-color: orange;
+  color: white;
+  border: none;
+}
+
+.action-view-button-1:hover {
+  background-color: #918a83;
+  color: black;
+}
+
+/* Delete */
+
+.delete-view-button {
+  background-color: #4caf50;
+  /* Green */
+  border: none;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  height: 50px;
+  width: 180px;
+}
+
+.delete-view-button1 {
+  background-color: rgb(90, 71, 83);
+  color: white;
+  border: none;
+}
+
+.delete-view-button-1:hover {
+  background-color: #918a83;
+  color: black;
+}
+
+/*----------  System Filter Dropdown Button ------------*/
+
+.systemfilterdropdownbutton1 {
+  background-color: #4caf50;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  height: 50px;
+  width: 250px;
+}
+
+.filterdropdownbuttonhover1 {
+  background-color: white;
+  color: rgb(124, 104, 104);
+  border: 2px solid #e7e7e7;
+}
+
+.filterdropdownbuttonhover1:hover {
+  background-color: #e7e7e7;
+}
+
+/*----------  Dropdown Button Center ------------*/
+
+.profile-dropdown-menu-center {
+  background-color: #5f5d5a;
+  left: 10% !important;
+  /* right: 50% !important;  */
+  text-align: center !important;
+  transform: translate(-50%, 105%) !important;
+  width: 250px !important;
+  color: rgb(124, 104, 104) !important;
+  cursor: pointer;
+}
+
+.dropdown-menu-center {
+  background-color: #5f5d5a;
+  left: 40% !important;
+  right: auto !important;
+  text-align: center !important;
+  transform: translate(-50%, 22%) !important;
+  width: 300px !important;
+  color: rgb(124, 104, 104) !important;
+  cursor: pointer;
+}
+
+.dropdown-menu-center1 {
+  background-color: #5f5d5a;
+  left: 40% !important;
+  right: auto !important;
+  text-align: center !important;
+  transform: translate(-50%, 45%) !important;
+  width: 300px !important;
+  color: rgb(124, 104, 104) !important;
+  cursor: pointer;
+}
+
+.dropdown-menu-center2 {
+  background-color: #5f5d5a;
+  left: 35% !important;
+  right: auto !important;
+  text-align: center !important;
+  transform: translate(-50%, 17%) !important;
+  width: 300px !important;
+  color: rgb(124, 104, 104) !important;
+  cursor: pointer;
+}
+
+.dropdown-filter-menu-center1 {
+  background-color: #5f5d5a;
+  left: 167px !important;
+  right: auto !important;
+  text-align: center !important;
+  transform: translate(-50%, 21%) !important;
+  width: 300px !important;
+  color: rgb(124, 104, 104) !important;
+  cursor: pointer;
+}
+
+.dropdown-filter-menu-center2 {
+  background-color: #5f5d5a;
+  left: 162% !important;
+  right: auto !important;
+  text-align: center !important;
+  transform: translate(-50%, 21%) !important;
+  width: 300px !important;
+  color: rgb(124, 104, 104) !important;
+  cursor: pointer;
+}
+
+.dropdown-filter-menu-center3 {
+  background-color: #5f5d5a;
+  left: 163% !important;
+  right: auto !important;
+  text-align: center !important;
+  transform: translate(-50%, 45%) !important;
+  width: 300px !important;
+  color: rgb(124, 104, 104) !important;
+  cursor: pointer;
+}
+
+.driver-profile-dropdown-menu-center {
+  background-color: #5f5d5a;
+  left: 55% !important;
+  right: auto !important;
+  text-align: center !important;
+  transform: translate(-50%, 19%) !important;
+  width: 400px !important;
+  color: rgb(124, 104, 104) !important;
+  cursor: pointer;
+}
+
+.driver-profile-dropdown-menu-center-hover:hover {
+  background-color: orange;
+  color: white;
+}
+
+.dropdown-account-card-center {
+  background-color: #65696b;
+  border-radius: 30px;
+  margin-left: 65% !important;
+  right: auto !important;
+  text-align: center !important;
+  transform: translate(-50%, 1%) !important;
+  width: 400px !important;
+  color: white !important;
+  cursor: pointer;
+}
+
+.driver-profile-dropdown-menu-center1 {
+  background-color: #5f5d5a;
+  left: 40% !important;
+  right: auto !important;
+  text-align: center !important;
+  transform: translate(-50%, 22%) !important;
+  width: 400px !important;
+  color: rgb(124, 104, 104) !important;
+  cursor: pointer;
+}
+
+.driver-profile-dropdown-menu-center2 {
+  background-color: #5f5d5a;
+  left: 30% !important;
+  right: auto !important;
+  text-align: center !important;
+  transform: translate(-50%, 30%) !important;
+  width: 400px !important;
+  color: rgb(124, 104, 104) !important;
+  cursor: pointer;
+}
+
+.driver-profile-dropdown-menu-center3 {
+  background-color: #5f5d5a;
+  left: 30% !important;
+  right: auto !important;
+  text-align: center !important;
+  transform: translate(-50%, 22%) !important;
+  width: 430px !important;
+  color: rgb(124, 104, 104) !important;
+  cursor: pointer;
+}
+
+.driver-profile-dropdown-menu-center4 {
+  background-color: #5f5d5a;
+  left: 22% !important;
+  right: auto !important;
+  text-align: center !important;
+  transform: translate(-50%, 30%) !important;
+  width: 300px !important;
+  color: rgb(124, 104, 104) !important;
+  cursor: pointer;
+}
+
+.driver-profile-button-menu-center {
+  background-color: #5f5d5a;
+  left: 80% !important;
+  right: auto !important;
+  text-align: center !important;
+  transform: translate(-50%, 40%) !important;
+  width: 450px !important;
+  color: rgb(124, 104, 104) !important;
+  cursor: pointer;
+}
+
+/*----------  Driver Job Cards Button ------------*/
+
+.button5 {
+  background-color: white;
+  color: rgba(0, 0, 0, 0.5);
+  border: 2px solid #aaa1a1 !important;
+}
+
+.button5 {
+  padding: 8px 90px;
+  border-radius: 8px;
+}
+
+.button5:hover {
+  background-color: #555555;
+  color: white;
+}
+
+.center-text {
+  text-align: center;
+}
+
+/*----------  Hover buttons ------------*/
+
+.hoverbutton1 {
+  background-color: #4caf50;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  height: 35px;
+  width: 186px;
+}
+
+.buttonhover1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #e7e7e7;
+}
+
+.buttonhover1:hover {
+  background-color: #e7e7e7;
+}
+
+.hoverbutton2 {
+  background-color: #4caf50;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  height: 50px;
+  width: 300px;
+}
+
+.buttonhover2 {
+  background-color: white;
+  color: black;
+  border: 2px solid #e7e7e7;
+}
+
+.buttonhover2:hover {
+  background-color: #817a7a;
+}
+
+/*----------  Active Buttons ------------*/
+
+.active-alive, .btn:hover {
+  background-color: rgba(214, 211, 211, 0.938);
+  color: rgb(48, 46, 46);
+}
+
+/*----------  Yellow Buttons ------------*/
+
+.yellowbutton {
+  background-color: #ecb70a;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  height: 40px;
+  width: 250px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.yellowbutton1 {
+  background-color: white;
+  color: rgb(66, 64, 64);
+  border: 2px solid #ecb70a;
+}
+
+.yellowbutton1:hover {
+  background-color: #f1dc19 !important;
+  color: rgb(8, 0, 0);
+}
+
+/*----------  System Buttons1 ------------*/
+
+.system-second-main-button1 {
+  background-color: #ffffff;
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin: 4px 2px;
+  height: 40px;
+  width: 150px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.system-second-button1 {
+  background-color: rgb(230, 163, 18);
+  color: white;
+  border: none;
+}
+
+.system-second-button-hover-default1:hover {
+  background-color: white;
+  color: rgb(5, 5, 5);
+}
+
+.system-second-button-hover1:hover {
+  background-color: rgb(230, 163, 18);
+  color: white;
+}
+
+/*----------  System Filter Button1 ------------*/
+
+.system-filter-button1 {
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin: 4px 2px;
+  height: 50px;
+  width: 300px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.system-filter-button1 {
+  background-color: rgb(230, 163, 18);
+  color: white;
+  border: none;
+}
+
+.system-filter-button1-hover:hover {
+  background-color: rgb(100, 95, 95);
+  color: rgb(5, 5, 5);
+}
+
+/*----------  System Buttons1 ------------*/
+
+.system-main-button1 {
+  background-color: #ffffff;
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin: 4px 2px;
+  height: 40px;
+  width: 150px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.system-button1 {
+  background-color: rgb(230, 163, 18);
+  color: white;
+  border: none;
+}
+
+.system-button-hover-default1:hover {
+  background-color: white;
+  color: rgb(5, 5, 5);
+}
+
+.system-button-hover1:hover {
+  background-color: rgb(230, 163, 18);
+  color: white;
+}
+
+.system-main-button2 {
+  background-color: #4caf50;
+  /* Green */
+  border: none;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin: 4px 2px;
+  height: 40px;
+  width: 150px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.system-button2 {
+  background-color: rgba(255, 255, 255, 0.295);
+  color: black;
+  border: 2px solid rgb(230, 163, 18);
+}
+
+.system-button-hover2:hover {
+  background-color: rgb(230, 163, 18);
+  color: rgb(0, 0, 0);
+}
+
+.system-text-colour {
+  color: rgba(90, 84, 84, 0.815);
+}
+
+.system-text-colour2 {
+  color: rgba(109, 106, 106, 0.658);
+}
+
+/* ------------------ Percentage Button Test ----------------- */
+
+.percentage-button {
+  background-color: #4caf50;
+  /* Green */
+  border: none;
+  border-radius: 30px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 4px 2px;
+  width: 150px;
+  height: 70px;
+}
+
+.percentage-button1 {
+  background-color: rgb(236, 212, 223);
+  color: black;
+  border: 15px solid #eb71bc;
+}
+
+/*--------- Driver Profile Button ---------*/
+
+.tap-to-shortlist {
+  background-color: #4caf50;
+  /* Green */
+  border: none;
+  border-radius: 6px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 4px 2px;
+  width: 400px;
+  height: 50px;
+}
+
+.tap-to-shortlist1 {
+  background-color: orange;
+  color: white;
+  border: none;
+}
+
+.tap-to-shortlist-1:hover {
+  background-color: #5c645d;
+  color: rgb(5, 5, 5);
+}
+
+.tap-to-shortlist2 {
+  background-color: rgb(55, 214, 34);
+  color: white;
+  border: none;
+}
+
+.tap-to-shortlist-2:hover {
+  background-color: #5c645d;
+  color: rgb(5, 5, 5);
+}
+
+.driver-profile-button {
+  background-color: #4caf50;
+  /* Green */
+  border: none;
+  border-radius: 6px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 4px 2px;
+  width: 200px;
+  height: 50px;
+}
+
+.driver-profile-button1 {
+  background-color: white;
+  color: rgb(144, 150, 143);
+  border: 2px solid #e3e9e3;
+}
+
+.driver-profile-button-1:hover {
+  background-color: #5c645d;
+  color: rgb(5, 5, 5);
+}
+
+.driver-profile-button2 {
+  background-color: rgb(63, 66, 62);
+  color: white;
+  border: 2px solid orange;
+}
+
+.driver-profile-button-2:hover {
+  background-color: #5c645d;
+  color: rgb(5, 5, 5);
+}
+
+.driver-profile-dropdownbutton1 {
+  background-color: #4caf50;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  height: 50px;
+  width: 200px;
+}
+
+.driver-profile-dropdownbutton-1 {
+  background-color: white;
+  color: rgb(124, 104, 104);
+  border: 2px solid #e7e7e7;
+}
+
+.driver-profile-dropdownbutton-hover1:hover {
+  background-color: #e7e7e7;
+}
+
+.driver-profile-dropdownbutton-menu1 {
+  background-color: #4caf50;
+  border-radius: 10px;
+  border: 1px;
+  border-color: rgb(136, 132, 132);
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  height: 50px;
+  width: 200px;
+}
+
+.driver-profile-dropdownbutton-menu-1 {
+  background-color: orange;
+  color: white;
+  border: none;
+}
+
+.driver-profile-button-menu {
+  background-color: rgb(235, 227, 227);
+  color: rgb(163, 153, 153);
+}
+
+.driver-profile-dropdownbutton-menu-hover1:hover {
+  background-color: #aaa1a1;
+  color: black;
+}
+
+.driver-profile-dropdownbutton-menu2 {
+  background-color: #4caf50;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  height: 50px;
+  width: 140px;
+}
+
+.driver-profile-dropdownbutton-menu-2 {
+  background-color: orange;
+  color: white;
+  border: none;
+}
+
+.driver-profile-dropdownbutton-menu-3 {
+  background-color: #e3e9e3;
+  color: black;
+  border: none;
+}
+
+.driver-profile-dropdownbutton-menu-hover2:hover {
+  background-color: green;
+  color: white;
+}
+
+.sidebar {
+  padding-left: 8px;
+}
+
+.sidebar>.navbar {
+  padding: 0 !important;
+}
+
+.navbar-nav .nav-link {
+  color: #fff;
+  font-size: 15px !important;
+}
+
+a.nav-link {
+  padding: 10px;
+}
+
+.inbox, a.nav-link:hover {
+  background: #fff;
+  color: #000;
+  border-radius: 10px;
+}
+
+.sidebar>.navbar {
+  background: none;
+}
+
+/* chat css */
+
+.chat__headerLeft {
+  margin-top: -40px;
+}
+
+.chat__header {
+  background: #e8f5f9;
+  border: 0.5px solid #c4c4c4;
+  box-sizing: border-box;
+  border-radius: 12px 12px 0px 0px;
+}
+
+.chat-img {
+  margin-top: -30px;
+  margin-left: 12px;
+  margin-bottom: 28px;
+}
+
+.contact-btn {
+  background-color: #6b6565 !important;
+  padding: 6px !important;
+  color: #fff !important;
+  margin-left: 16px;
+  margin-right: 9px;
+  width: 121px;
+}
+
+.chats-container {
+  height: 100%;
+  max-height: calc(100vh - 70px);
+  position: relative;
+}
+
+.chat__body {
+  overflow: scroll;
+  overflow-x: hidden;
+  background-color: #ffffff;
+  min-height: 350px;
+  max-height: 350px;
+  height: 100%;
+}
+
+.chat__footer {
+  position: relative;
+}
+
+.chat__body::-webkit-scrollbar {
+  width: 4px;
+  background-color: transparent;
+}
+
+.chat__body::-webkit-scrollbar-thumb {
+  background-color: #d4d4d4;
+}
+
+.chat-text {
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.chat-delete-btn {
+  display: none;
+}
+
+.chat-wrapper:hover .chat-delete-btn {
+  display: block;
+}
+
+/* chat body css */
+
+.id {
+  width: 145px;
+  color: #6b6565;
+  background: #efebeb;
+  border-radius: 0px 7px 0px 5px;
+  padding: 5px;
+  margin-right: -15px;
+}
+
+.guest {
+  width: 145px;
+  color: #fff;
+  background: #914a9c;
+  border-radius: 0px 0px 0px 5px;
+  padding: 5px;
+  margin-right: -15px;
+  text-align: center;
+}
+
+.chat-foot {
+  background-color: #fff;
+  border-radius: 0px 0px 12px 12px;
+  padding: 15px;
+}
+
+.message-area {
+  background: #ffffff;
+  border: 0.7px solid #ffbb00;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+
+.text-style {
+  margin-bottom: 100px;
+  padding: 20px;
+}
+
+.message-icon {
+  background: #f9f8f8;
+  border-radius: 0px 0px 15px 15px;
+  padding: 10px;
+}
+
+.sendIcon {
+  background: #ffbb00 !important;
+  border-radius: 15px !important;
+  padding: 5px 25px !important;
+}
+
+.text-box {
+  border-radius: 15px 15px 15px 0px;
+}
+
+.chat-wrapper div {
+  display: flex;
+  text-align: right;
+}
+
+.bg-#E8E8E9 {
+  background: #ecf2fa;
+  max-width: 75%;
+  min-width: 50px;
+  position: relative;
+  left: 0;
+}
+
+.bg-pink {
+  background: #fcf2f7;
+  max-width: 75%;
+  min-width: 50px;
+  margin: 0 !important;
+}
+
+/* chat footer css */
+
+.chatFooter {
+  background: #ffffff;
+  border: 0.7px solid #ffbb00;
+  box-sizing: border-box;
+  border-radius: 15px;
+  /* max-height: 230px; */
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.chatClose, .guestChat {
+  top: 0;
+}
+
+.chatClose2, .guestChat2 {
+  border-radius: 0px 15px 15px 0px;
+  height: 230px;
+  background: url("../../dist/images/darkBg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.guestChat2 {
+  border-radius: 0px 15px 15px 0px;
+  height: 230px;
+  background: url("../../dist/images/purpleBg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* .chatClose2:before {
+  content: "";
+  position: absolute;
+  top: 0%;
+  right: 50%;
+  width: 231px;
+  height: 230px;
+  background: linear-gradient(to bottom right, #fff 0%, #fff 50%, #343a40 50%, #343a40 100%);
+} */
+
+.input__style {
+  border: none;
+}
+
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border: none;
+  outline: 0;
+  box-shadow: none;
+}
+
+/*---------------- Driver Profile Pop Up Button ----------------*/
+
+.driver-profile-dropdownbutton-popup {
+  background-color: rgb(235, 21, 92);
+  border-radius: 50px;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
+}
+
+.driver-profile-dropdownbutton-popup {
+  background-color: rgb(223, 62, 115);
+  color: white;
+  border: none;
+}
+
+.driver-profile-dropdownbutton-popup-hover:hover {
+  background-color: orange;
+  color: white;
+}
+
+/* ------------------ Social Cards ------------------ */
+
+.advert-image-position {
+  left: 40%;
+}
+
+.group-image-size {
+  border: none;
+  border-radius: 5px;
+  width: 1000%;
+  height: 550px;
+}
+
+.media-photo-size {
+  border: none;
+  border-radius: 5px;
+  width: 130%;
+  height: 250px;
+}
+
+.advert-image-size {
+  border: none;
+  border-radius: 10px;
+  width: 120%;
+  height: 80%;
+}
+
+.account-card {
+  left: 0%;
+  color: white;
+  border: 2px solid rgb(202, 200, 196);
+  border-color: rgb(202, 200, 196);
+  background-color: #5f6363;
+  border-radius: 10px;
+  height: 550px;
+}
+
+.account-card-hover:hover {
+  color: #5f6363;
+  background-color: white;
+}
+
+.account-card-profile {
+  background-color: white;
+  border-radius: 10px;
+  color: #5f6363;
+  height: 150px;
+}
+
+.advert-card-position {
+  left: 44%;
+  border: 2px solid rgb(202, 200, 196);
+  border-color: rgb(202, 200, 196);
+  background-color: #fdefc0;
+  border-radius: 20px;
+  height: 770px;
+}
+
+.advert-card-position1 {
+  left: 44%;
+  border: 2px solid rgb(202, 200, 196);
+  border-color: rgb(202, 200, 196);
+  background-color: #fdefc0;
+  border-radius: 20px;
+  height: 570px;
+}
+
+.trending-group-card {
+  border: 2px solid rgb(202, 200, 196);
+  border-color: rgb(202, 200, 196);
+  border-radius: 20px;
+  width: 800px;
+  height: 350px;
+  background-color: #fff;
+}
+
+.trending-hashtag-card {
+  border: 2px solid rgb(202, 200, 196);
+  border-color: rgb(202, 200, 196);
+  border-radius: 20px;
+  width: 800px;
+  height: 350px;
+  background-color: #fff;
+}
+
+.post-direction-icon {
+  background-color: #fdefc0;
+  color: rgb(202, 200, 196);
+  width: 800px;
+  cursor: pointer;
+}
+
+.strike {
+  display: block;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+/* ----------------------- Line Button ----------------------- */
+
+.line-button {
+  background-color: orange;
+  /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 250px;
+  height: 12px;
+}
+
+.line-button1 {
+  background-color: orange;
+  /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.line-button-text {
+  color: #aaaaa5;
+}
+
+.strike>span {
+  position: relative;
+  display: inline-block;
+}
+
+.strike>span:before, .strike>span:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 9999px;
+  height: 1px;
+  background: rgb(189, 187, 183);
+}
+
+.strike>span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+
+.strike>span:after {
+  left: 100%;
+  margin-left: 15px;
+}
+
+/* -----------------Instadriver Groups----------------- */
+
+.group-info-tag {
+  background-color: #e6ecec;
+  height: 50px;
+}
+
+.about-card {
+  background-color: #edf1f1;
+  border-radius: 30px;
+  color: black;
+  width: 650px;
+  height: 400px;
+}
+
+.about-card1 {
+  background-color: #edf1f1;
+  border-radius: 30px;
+  color: black;
+  width: 650px;
+  height: 600px;
+}
+
+.about-card2 {
+  background-color: #edf1f1;
+  border-radius: 30px;
+  color: black;
+  width: 650px;
+  height: 1000px;
+}
+
+.about-card3 {
+  background-color: #edf1f1;
+  color: black;
+  width: 1000px;
+  height: 1000px;
+}
+
+.about-card4 {
+  background-color: white;
+  border-radius: 30px;
+  width: 180%;
+  height: 1400px;
+}
+
+ul.square-bullets {
+  list-style-type: square;
+  color: orange;
+}
+
+.profile-user-card {
+  text-align: center;
+  height: 100px;
+  width: 100px;
+}
+
+.members-profile-card {
+  text-align: center;
+  height: 100px;
+  width: 100px;
+}
+
+/* chat css */
+
+.contactBtn {
+  left: -200px !important;
+  top: 0px !important;
+}
+
+.threeDotBtn {
+  left: -148px !important;
+  top: -42px !important;
+}
+
+.popupBox-style {
+  background: #6b6565 !important;
+  border: 0.5px solid #c4c4c4 !important;
+  box-sizing: border-box !important;
+  border-radius: 5px !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+  font-weight: 700 !important;
+  color: #fff !important;
+  width: 240px !important;
+  height: 45px !important;
+}
+
+.popup-box {
+  width: 300px;
+  height: 200px;
+}
+
+.contactPopup {
+  width: 415px;
+  height: 220px;
+}
+
+.popup-top {
+  background: #6b6565;
+  border-radius: 5px 5px 0px 0px;
+  color: #fff;
+  padding: 8px 0px;
+  margin-top: -76px;
+}
+
+.modal-style {
+  background: #efefef;
+  border: 0.5px solid #c4c4c4;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  font-weight: 700;
+  color: #3b3b3b;
+}
+
+.contactBox {
+  width: 217px;
+  height: 50px;
+  text-align: center;
+  padding: 10px;
+}
+
+.Modal {
+  position: absolute;
+  background-color: white;
+}
+
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #00000075;
+}
+
+.closeChat__modal {
+  width: 520px;
+  height: 250px;
+}
+
+.btn-border {
+  border: 1px solid gray !important;
+}
+
+/* chat body css */
+
+.search__position {
+  position: absolute;
+  z-index: 9999999;
+}
+
+.filterBox {
+  background: white;
+  min-height: 100px;
+  max-height: 620px;
+  overflow: auto;
+  border: 1px solid #b9b9b9;
+  margin-top: 40px;
+  width: 460px;
+}
+
+.searchUser:hover {
+  background-color: #ffbb00;
+  color: white;
+}
+
+.user-type {
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+}
+
+.bg-pinkLike {
+  background: #914a9c;
+}
+
+.bg-deep {
+  background: #6b6565;
+}
+
+/* chat footer css */
+
+.input__style {
+  background: none !important;
+}
+
+.chatFoot__bottom {
+  background: #f9f8f8;
+  border-radius: 0px 0px 15px 15px;
+  padding: 2px 10px;
+}
+
+.sendIcon {
+  background: #ffbb00;
+  border-radius: 15px;
+  padding: 5px 25px;
+}
+
+.iconBtn:hover, .iconBtn:focus {
+  background-color: transparent !important;
+}
+
+/* chat box css */
+
+.box-style {
+  border: 0.5px solid #c4c4c4;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 7px;
+  margin: 5px 5px 20px 5px;
+}
+
+.chat-box {
+  border-radius: 10px;
+  padding: 0px 0px 10px 5px;
+}
+
+.box-#E8E8E9 {
+  background: #e8f5f9;
+}
+
+.box-gray {
+  background: #f9f8f8;
+}
+
+.active-border {
+  border: 1px solid orange !important;
+  border-radius: 10px;
+}
+
+.count {
+  background-color: green;
+  border-radius: 50%;
+  color: #fff;
+  padding: 4px 12px;
+  position: absolute;
+  right: -25px;
+  top: 5px;
+}
+
+.time {
+  right: 20px;
+  position: relative;
+  font-size: 14px;
+}
+
+.id-style {
+  width: 105px;
+  color: #6b6565;
+  background: #efebeb;
+  border-radius: 0px 10px 0px 5px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  padding: 2px;
+  font-size: 12px;
+}
+
+.guest-style {
+  width: 105px;
+  color: #fff;
+  background: #914a9c;
+  border-radius: 0px 10px 0px 5px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  padding: 2px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.chat__left {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+
+.chat__right {
+  padding-left: 0px !important;
+}
+
+.newUserSearch {
+  margin-left: 6rem;
+  margin-top: -50px;
+}
+
+.userInput {
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  padding: 2px !important;
+  background: none !important;
+}
+
+.userInputBox {
+  border: 1px solid gray !important;
+}
+
+.editImg {
+  margin-right: 15px;
+  width: 23px;
+  height: 23px !important;
+  margin-top: 6px;
+}
+
+/* chatListBody css */
+
+.chatListBody {
+  min-height: 26vh;
+  max-height: 750px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  padding: 10px;
+  /* display: flex; */
+  /* flex-direction: column-reverse; */
+}
+
+.chatBody {
+  overflow: auto;
+}
+
+.chatListBody::-webkit-scrollbar, .chatBody::-webkit-scrollbar {
+  width: 4px;
+  background-color: transparent;
+}
+
+.chatListBody::-webkit-scrollbar-thumb, .chatBody::-webkit-scrollbar-thumb {
+  background-color: #d4d4d4;
+  border-radius: 2px;
+}
+
+/* chatListHeader css */
+
+.submit__btn {
+  width: 27px;
+  height: 27px;
+  border: none;
+  position: absolute;
+  top: 12px;
+  left: 9px;
+  text-indent: -999999px;
+  background: url("../../dist/icons/searchIcon.png") no-repeat;
+  background-size: 18px 18px;
+  z-index: 9999999;
+}
+
+.search__input {
+  height: 40px !important;
+  padding-left: 31px !important;
+  border-radius: 30px !important;
+  border: 0.5px solid #ffbb00 !important;
+  background: none !important;
+}
+
+.input-group>.form-control:not(:first-child), .input-group>.custom-select:not(:first-child) {
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+input[type="submit"]:focus {
+  outline: 0;
+}
+
+.border__focus:focus {
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+
+.form-control:focus {
+  box-shadow: none !important;
+}
+
+.filterPopup {
+  width: 300px;
+  height: 300px;
+  margin-top: -20px;
+}
+
+.filterPopup-top {
+  background: #6b6565;
+  border-radius: 5px 5px 0px 0px;
+  color: #fff;
+  padding: 8px 0px;
+}
+
+.filterBtn {
+  left: -280px !important;
+  top: -30px !important;
+}
+
+.srcFilter {
+  border: 1px solid #ced4da !important;
+}
+
+/* sidebar css */
+
+#sideNavBar {
+  background: none !important;
+}
+
+.MuiDrawer-paper {
+  top: 68px !important;
+}
+
+.MuiAppBar-positionFixed {
+  top: 68px !important;
+}
+
+.MuiToolbar-regular {
+  min-height: 32px !important;
+  background-color: #3b3b3b;
+  padding: 4px;
+}
+
+.MuiDrawer-paper {
+  padding: 10px 0px !important;
+}
+
+.MuiTypography-body1 {
+  color: #fff !important;
+}
+
+.MuiTypography-body1:focus {
+  color: #000 !important;
+}
+
+.MuiAppBar-root {
+  width: 100% !important;
+}
+
+.MuiDrawer-paperAnchorLeft {
+  margin-top: -4px !important;
+}
+
+.MuiTypography-noWrap {
+  width: 100% !important;
+  text-align: center !important;
+}
+
+/* mainBody css */
+
+.sidebarCss .nav-item a.nav-link {
+  padding: 10px;
+}
+
+.inbox, .sidebarCss .nav-item a.nav-link:hover {
+  background: #fff;
+  color: #000;
+  border-radius: 5px;
+}
+
+/*---------- DRIVER SIDEBAR ------------*/
+
+.sidebarCss .nav-item a.nav-link {
+  padding: 10px;
+}
+
+.profile, .sidebarCss .nav-item a.nav-link:hover {
+  background: #ffbb00;
+  color: #000;
+  border-radius: 5px;
+}
+
+.driver-sidebar-profile-btn {
+  border: #ffbb00;
+  border-radius: 4px;
+  background: #fff;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  height: 40px;
+  width: 170px;
+}
+
+.driver-sidebar-profile-btn-touched:hover {
+  background-color: #ffbb00;
+  border: rgb(212, 140, 6);
+  border-radius: 4px;
+  color: black;
+  border: none;
+}
+
+.sidebarCss li {
+  padding: 0px 10px;
+}
+
+.navbar.customNavBar {
+  background: #3b3b3b !important;
+  padding-bottom: 0px !important;
+}
+
+/* .mainBody__sidebar {
+  background-color: #914A9C;
+  width: 226px;
+  height: 850px;
+} */
+
+.mainBody__chatList {
+  width: 440px;
+}
+
+.mainBody__chat {
+  padding: 1.5rem 2rem 1.5rem 0rem !important;
+}
+
+.chat__btn {
+  background-color: #ffbb00 !important;
+  color: #fff !important;
+  height: 40px;
+}
+
+.bg-none:hover {
+  background: none !important;
+}
+
+.inputIcon-none {
+  background: none !important;
+  background: #ffffff !important;
+  border: 0.5px solid #ced4da !important;
+  border-radius: 3px !important;
+  width: 100% !important;
+  padding: 0px 5px !important;
+  font-size: 18px !important;
+}
+
+.deleteMsg__modal {
+  width: 530px;
+  height: 330px;
+}
+
+select {
+  color: #7d7d7d !important;
+}
+
+select:hover, select:focus {
+  color: #000 !important;
+  background: #fff !important;
+}
+
+/* DRIVER PROFILE PAGE */
+
+.photoBox1 {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  background: #ffffff;
+  border: 0.3px solid #5b5b5b;
+  box-sizing: border-box;
+}
+
+.photoBoxSquare {
+  width: 100%;
+  height: 320px;
+  background: #ffffff;
+  border: 0.3px solid #5b5b5b;
+  box-sizing: border-box;
+}
+
+.profile__bottom {
+  background: rgb(229, 229, 229);
+  width: 100%;
+}
+
+/* driver info css */
+
+.section__style {
+  border: 1px solid #ced4da;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.label__style {
+  font-size: 16px !important;
+  font-weight: 500;
+  color: #575353 !important;
+  padding-right: 0px !important;
+  margin-bottom: 10px !important;
+}
+
+.fullName__Modal {
+  width: 450px;
+  height: 350px;
+}
+
+.closeModalBtn:hover {
+  background-color: transparent !important;
+}
+
+.form__heading {
+  font-weight: 500;
+  font-size: 20px;
+  color: #4b4747;
+  margin-bottom: 15px;
+}
+
+.form__heading2 {
+  font-weight: 500;
+  font-size: 16px;
+  color: #4b4747;
+}
+
+.iRWlAB {
+  background-color: #80808040 !important;
+}
+
+/*custom radio color */
+
+.submitBtn {
+  background: #3b3b3b !important;
+  border: 0.5px solid #c4c4c4 !important;
+  border-radius: 5px !important;
+  color: #fff !important;
+}
+
+/* driver qualifications css  */
+
+.subTitle {
+  background-color: #f6f7f9;
+  font-weight: 500;
+  font-size: 18px;
+  color: #575353;
+}
+
+/* driver category css  */
+
+.driverCheckbox input[type="checkbox"] {
+  visibility: hidden;
+}
+
+label {
+  cursor: pointer;
+}
+
+.driverCheckbox input[type="checkbox"]+label:before {
+  background: #c4c4c4;
+  content: "\00a0";
+  display: inline-block;
+  font: 16px/1em sans-serif;
+  height: 20px;
+  width: 20px;
+  border-radius: 2px;
+}
+
+.driverCheckbox input[type="checkbox"]:checked+label:before {
+  background: green;
+  color: #fff;
+  content: "\2714";
+  border: none;
+  padding: 2px;
+  border-radius: 2px;
+}
+
+/* diver platform css  */
+
+.checkInput {
+  background: none !important;
+  background: #ffffff !important;
+  border: 0.5px solid #ced4da !important;
+  border-radius: 3px !important;
+  padding: 5px !important;
+  width: 80% !important;
+  font-size: 15px !important;
+}
+
+textarea {
+  resize: none !important;
+  background: #edf5fa;
+  border: 0.5px solid #c4c4c4;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+.uploadInput {
+  background: none !important;
+  background: #ffffff !important;
+  border: 0.5px solid #ced4da !important;
+  border-radius: 3px !important;
+  width: 100% !important;
+  padding: 0px 10px !important;
+  font-size: 15px !important;
+}
+
+/* select currency section css */
+
+.currencyInfo {
+  background: #f6f7f9;
+  border-radius: 5px;
+  margin: 20px auto !important;
+}
+
+/* social history section css */
+
+.switchToggle input[type="checkbox"]+label:before {
+  background: #6a6a6a;
+  display: inline-block;
+  font: 16px/1em sans-serif;
+  height: 28px;
+  width: 55px;
+  border-radius: 34px;
+}
+
+.switchToggle input[type="checkbox"]:checked+label:before {
+  background-color: green;
+  padding: 2px;
+  border-radius: 34px;
+}
+
+.custom-switch .custom-control-input:checked~.custom-control-label::after {
+  -webkit-transform: translateX(1.75rem) !important;
+  transform: translateX(1.75rem) !important;
+}
+
+.custom-control-label::after {
+  top: 8px !important;
+  left: -33px !important;
+  width: 20px !important;
+  height: 20px !important;
+  border-radius: 50% !important;
+}
+
+/* preview profile css  */
+
+.previewCard {
+  width: 396px !important;
+  min-height: 145px !important;
+  border-radius: 15px !important;
+  margin: auto;
+}
+
+.UrlBtn {
+  border-radius: 5px;
+}
+
+/* driver profile preview page css */
+
+.countBox {
+  width: 70px;
+  height: 70px;
+  background: #575353;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+}
+
+.text-gray {
+  color: #787878;
+}
+
+/* inbox footer area css */
+
+#InputFile form input[type="file"] {
+  position: absolute;
+  left: -99999rem;
+}
+
+.custom-file-upload {
+  display: inline-block;
+  padding: 6px 2px;
+  cursor: pointer;
+}
+
+.chatFooter__left .dropdown .dropdown-menu {
+  left: -10px !important;
+  top: -10px !important;
+  width: 300px;
+}
+
+aside.emoji-picker-react {
+  margin-top: -300px !important;
+}
+
+/* css for record voice message  */
+
+.mic-container {
+  width: 100%;
+  position: absolute;
+  bottom: 3.7rem;
+  margin-left: -10px;
+}
+
+._1ceqH ._1lB9c {
+  display: none !important;
+}
+
+._1ceqH ._dt3-T {
+  min-height: 168px !important;
+  border-radius: 15px 15px 0px 0px !important;
+  border: 0.7px solid #ffbb00;
+}
+
+._1ceqH ._1Yplu {
+  position: absolute;
+  width: 100px;
+  right: 10%;
+  top: 20%;
+  margin: 0px !important;
+}
+
+._1ceqH ._1dpop {
+  width: 45px !important;
+  height: 45px !important;
+}
+
+._1ceqH ._3neb0 {
+  width: 23px !important;
+  height: 23px !important;
+}
+
+._1ceqH ._f2DT8 * {
+  font-size: 28px !important;
+}
+
+._1ceqH ._3bC73 ._1dpop {
+  bottom: 35px !important;
+  left: 12% !important;
+}
+
+._1ceqH ._1YOWG ._eV_dK {
+  line-height: 1 !important;
+}
+
+._1ceqH ._3bC73 ._1YOWG {
+  left: 47% !important;
+  top: 45% !important;
+  width: 35%;
+  text-align: center;
+}
+
+._1ceqH ._1Yplu ._1Pz2d {
+  border-radius: 0px !important;
+  background: #185fec;
+  color: #fff;
+  border: 1px solid #185fec;
+  width: 100% !important;
+  margin-left: 0px !important;
+  margin-bottom: 10px !important;
+}
+
+._1ceqH ._2fG9h {
+  padding: 0px !important;
+}
+
+._1ceqH ._3bC73 ._1YOWG audio {
+  position: absolute !important;
+  margin-top: -15% !important;
+  right: 9% !important;
+  height: 40px;
+}
+
+._1ceqH ._qxztz {
+  position: absolute;
+  left: 15% !important;
+  bottom: 18px !important;
+}
+
+input::-webkit-input-placeholder {
+  text-align: left !important;
+}
+
+input:-moz-placeholder {
+  text-align: left !important;
+}
+
+input::-moz-placeholder {
+  text-align: left !important;
+}
+
+input:-ms-input-placeholder {
+  text-align: left !important;
+}
+
+.emoji-mart {
+  position: absolute !important;
+  bottom: 0% !important;
+  left: -37% !important;
+}
+
+.commentStyle {
+  background: #f5f5f5;
+  border-radius: 15px;
+}
+
+/* ------------------------ video chat --------------------------------*/
+
+.TabNav {
+  width: 350px !important;
+  text-align: center !important;
+  border: 1px solid #000 !important;
+}
+
+.tabLink:hover {
+  border-radius: 0px !important;
+  color: #fff !important;
+}
+
+.tabLink:active {
+  border-radius: 0px !important;
+  color: #fff !important;
+}
+
+.nav-pills .nav-link.active {
+  color: #fff !important;
+  font-size: 24px !important;
+  font-weight: normal !important;
+}
+
+.nav-pills .nav-link {
+  padding: 17px 0px !important;
+  font-size: 24px !important;
+}
+
+.chatDetails {
+  background: #edf5fa;
+  border-radius: 0px 24px 24px 0px;
+}
+
+.chatRoomDetails {
+  background: #edf5fa;
+  border-radius: 24px;
+}
+
+.chatDetailStyle {
+  padding-left: 20px;
+}
+
+.text-orange {
+  color: #ffbb00;
+}
+
+.bg-orange {
+  background: #ffbb00 !important;
+}
+
+.font-24 {
+  font-size: 22px;
+}
+
+.videoSize {
+  width: 100%;
+  height: 120px;
+}
+
+.videoChatBtn {
+  border-radius: 46px !important;
+  color: #fff !important;
+  width: 150px;
+  padding: 10px !important;
+}
+
+.viewMore {
+  background: #ffbb00 !important;
+  border-radius: 46px !important;
+  color: #fff !important;
+  width: 180px;
+  padding: 3px !important;
+}
+
+.chatController {
+  background: rgba(0, 0, 0, 0.4);
+  border-top: 5px solid red;
+}
+
+.joinStatus {
+  color: #f8bd00;
+  font-size: 18px;
+}
+
+.video-chat-radio {
+  margin-bottom: 25px !important;
+}
+
+.video-chat-radio label {
+  font-size: 1.5rem !important;
+  color: rgba(0, 0, 0, 0.45) !important;
+  margin-bottom: 10px !important;
+}
+
+.video-chat-radio input[type="radio"]+label:before {
+  width: 30px !important;
+  height: 30px !important;
+  margin-right: 15px !important;
+  margin-bottom: -6px !important;
+}
+
+.search-group {
+  border: none;
+  border-left: none;
+  text-align: center;
+  border-radius: 0 20px 20px 0;
+  outline: none;
+  color: #4a4e4c;
+  background-color: #e5f0f0;
+  width: 415px;
+  height: 40px;
+}
+
+.search-wrap {
+  width: 90%;
+  margin: auto;
+}
+
+.driverCard {
+  min-width: 100%;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+
+.crossIcon {
+  width: 100px;
+  height: 100px;
+  top: -53%;
+  right: 8%;
+}
+
+.createVideo {
+  border-radius: 46px !important;
+  color: #fff !important;
+  width: 200px;
+  padding: 7px !important;
+}
+
+.map-container {
+  width: 100%;
+  height: 830px;
+  background: url("../images/map.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* border: 1px solid rgba(0, 0, 0, 0.5); */
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+
+.memberCard:hover {
+  background: #ffbb00;
+  border-radius: 15px;
+}
+
+.memberCard:hover .hoverColor {
+  color: #fff !important;
+}
+
+.video-contain {
+  width: 170%;
+  z-index: 999;
+}
+
+/* employer profile  */
+
+.send-message-modal {
+  position: absolute;
+  background: #ffffff;
+  border: 0.5px solid #f8bd00;
+  box-sizing: border-box;
+  border-radius: 12px;
+  width: 530px;
+  margin-top: 50px;
+}
+
+.warning__modal {
+  width: 570px;
+  height: 215px;
+}
+
+.input-bg {
+  background: #f5f5f5 !important;
+}
+
+#JobCard {
+  border-radius: 15px !important;
+  min-height: 550px !important;
+  border: 0.5px solid #ffbb00 !important;
+}
+
+/* professional profile css */
+
+.bannerBg {
+  background: #ff9f86;
+  border-radius: 44px 44px 44px 329px;
+}
+
+.heading-color {
+  color: #3b3b3b;
+}
+
+.text-color {
+  color: #969393;
+}
+
+.color-5b {
+  color: #5b5b5b;
+}
+
+.card-bg {
+  border: 0.7px solid #ffbb00;
+  box-shadow: 0px 9px 6px #e5e5e5;
+}
+
+/* main menu navbar css */
+
+.dropdown_style {
+  width: 700px;
+  background: #5b5b5b !important;
+  border-radius: 9px !important;
+  height: 515px;
+}
+
+.menu_button {
+  border: none !important;
+  color: #000 !important;
+  height: 44px !important;
+  background: #f8bd00 !important;
+}
+
+.main-nav {
+  display: block;
+  text-decoration: none !important;
+  color: #fff !important;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.main-nav:hover {
+  background: rgba(196, 196, 196, 0.3) !important;
+}
+
+.view-pricing {
+  width: 100%;
+  border: none !important;
+  height: 40px !important;
+  background: #fff !important;
+}
+
+.detailsText {
+  color: #ffbb00 !important;
+  font-size: 13px;
+  line-height: 30px;
+}
+
+.static_menu {
+  text-decoration: none !important;
+  font-size: 18px;
+  color: #797878;
+}
+
+.org-bg {
+  /* background: url("/src/dist/images/Org.svg"), linear-gradient(180deg, #D46A8E 0%, #D0344A 100%); */
+  background: linear-gradient(180deg, #d46a8e 0%, #d0344a 100%);
+  min-height: 650px;
+}
+
+.feature-bg {
+  background: #f0f2f5;
+}
+
+/* all applicants css */
+
+.applicant_btn {
+  background: #FAF8F8;
+  border-radius: 10px;
+  border: none;
+  color: #5b5b5b;
+  font-size: 13px;
+  cursor: pointer;
+  height: 40px;
+  width: 186px;
+}
+
+.applicant_btn:hover {
+  background: #E8E8E9;
+  font-weight: 900;
+}
+
+.applicant_select {
+  color: #BEBDBD !important;
+  font-size: 13px !important;
+  height: 40px !important;
+  width: 186px !important;
+  background: #FFFFFF !important;
+  border: 0.5px solid #C4C4C4 !important;
+  border-radius: 12px !important;
+}
+
+.btn-hover:hover {
+  background: #FFBB00; 
+  border-radius: 5px; 
+  color: white;
+}
+/* responsive css */
+
+@media only screen and (min-width: 300px) and (max-width: 376px) {
+  .DriverProfile, .DriverProfilePreview, .mainBody, .professional-profile {
+    width: 375px !important;
+  }
+  .home-page {
+    width: 483px !important;
+  }
+  .textAreaWidth {
+    width: 100% !important;
+  }
+  .send-message-modal {
+    width: 95%;
+  }
+  .warning__modal {
+    width: 95%;
+  }
+  /* professional-profile css */
+  .feature-card {
+    width: 445px !important;
+  }
+}
+
+@media only screen and (min-width: 377px) and (max-width: 576px) {
+  .DriverProfile, .DriverProfilePreview, .home-page {
+    width: 575px !important;
+  }
+  .textAreaWidth {
+    width: 100% !important;
+  }
+  .send-message-modal {
+    width: 95%;
+  }
+  .warning__modal {
+    width: 95%;
+  }
+  #card-center {
+    display: flex !important;
+    justify-content: center !important;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  #card-center {
+    display: flex !important;
+    justify-content: center !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .offset-md-3 {
+    margin-left: 0 !important;
+    width: 100% !important;
+  }
+  .main-content {
+    flex: 1 !important;
+    max-width: 100% !important;
+  }
+}
+
+/* profile scrollbar */
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+#sidebarNav::-webkit-scrollbar-track {
+  background-color: rgb(233, 233, 233);
+}
+
+#sidebarNav::-webkit-scrollbar-thumb {
+  background: transparent;
+  border: 2px solid rgb(233, 233, 233);
+}
+
+#sidebarNav:hover::-webkit-scrollbar-thumb {
+  background: rgb(199, 199, 199);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(168, 168, 168);
+}
+
+/* end of profile scollbar */
+
+.main-profile {
+  display: flex;
+}
+
+/* --------------------new sidebar---------------------- */
+
+/* -----------------------end of new sidebar---------------- */
+
+.filter-header {
+  background: #efefef;
+  border-radius: 5px 5px 0px 0px;
+  display: flex !important;
+  align-items: center;
+}
+
+/* .filter-header .close {
+  background-color: #fff;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */

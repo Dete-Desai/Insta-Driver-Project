@@ -1,0 +1,43 @@
+#cursorpointer:hover{
+    background-color: #212529 !important;
+    color: white !important;
+}
+#cursorpointer:active{
+    background-color: #212529 !important;
+    color: white !important;
+}
+#cursorpointer:visited{
+    background-color: #212529 !important;
+    color: white !important;
+}
+.html{
+    width:auto;
+}
+#btnRegister{
+    background-color: #F8BD00;
+    color: #fff;
+    border: 1px solid #F8BD00;
+}
+a #account {
+    color: #3B3B3B;
+    font-family: Rubik;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    font-weight: 400;
+    padding-top: 20px;
+    display: block;
+    
+}
+a #account:hover 
+{
+     color: #3B3B3B !important;
+     cursor:pointer !important;  
+}
+.text-underline{
+    text-decoration: underline;
+    color: #3B3B3B;
+}
+.special-label{
+    display: none;
+}

@@ -1,0 +1,66 @@
+#nav-tab {
+  width: 100%;
+  max-width: 950px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0.5rem;
+}
+
+#nav-tab .nav-item {
+  max-width: 100px;
+  width: 100%;
+  display: inline-block;
+  margin: 0.5rem 0.3rem;
+  padding: 0.5rem 1rem;
+}
+
+#nav-tab .nav-item .nav-link {
+  width: 100%;
+}
+
+.project-tab #tabs .nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  border-bottom: 5px solid rgb(245, 193, 62) !important;
+  font-weight: bold;
+  border: none;
+  background: inherit;
+}
+
+.project-tab {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.project-tab .nav-link {
+  color: #b3b3b8;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.project-tab .nav-link:hover {
+  border: none;
+  border-radius: 0%;
+  background-color: inherit;
+}
+
+.project-tab .nav-link:focus {
+  border: none;
+}
+
+.button-send {
+  color: #fff;
+  border-radius: 18.4px;
+  width: 200px;
+  height: 40px;
+  margin-top: 0.5rem;
+  margin-left: 20px;
+}
+
+.button-send-message {
+  color: #fff;
+  border-radius: 5px;
+  width: 175px;
+  height: 40px;
+  margin-bottom: 1rem;
+}

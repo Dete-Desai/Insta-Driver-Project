@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- The above 4 meta tags *Must* come first in the head; any other head content must come *after* these tags -->
+        <!-- CSRF Token -->
+        <meta name="csrf-token" content="">
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="cache-control" content="no-cache, no store"/>
+        <!-- Title -->
+                <title>InstaDriver  </title>
+        <!-- Bootstrap core CSS -->
+        <link href="https://www.instadriver.co/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="icon" type="image/png" href="https://www.instadriver.co/img/fav.png">
+        <!-- Custom fonts for this template -->
+        <link href="https://www.instadriver.co/plugins/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+        <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+        <link href="https://www.instadriver.co/plugins/toast/jquery.toast.css" rel="stylesheet" >
+        <link href="https://www.instadriver.co/css/message.css" rel="stylesheet" >
+        <!-- Custom styles for this template -->
+        <link href="https://www.instadriver.co/css/style.css" rel="stylesheet">
+        <style>
+            #cursorpointer:hover{
+                background-color: #212529 !important;
+                color: white !important;
+            }
+            #cursorpointer:active{
+                background-color: 212529 !important;
+                color: white !important;
+            }
+            #cursorpointer:visited{
+                background-color: 212529 !important;
+                color: white !important;
+            }
+            .html{
+                width:auto;
+            }
+        </style>
+        <!-- Page CSS  -->
+<style>
+    .loginbxo {display: none !important;}
+</style>
+    </head>
+    <body id="page-top">
+        <div id="loader" class="loader_class"><img src="https://www.instadriver.co/img/loader.gif"/></div>
+        <div id="fade"></div>
+        <!-- Navigation -->
+        <div class="container-fluid csnav">
+            <div class="top">
+                <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+                    <div class="container">
+                        <a class="navbar-brand js-scroll-trigger" href="https://www.instadriver.co"><img src="https://www.instadriver.co/img/logo.svg" style="height: 50px;"></a>
+                        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                            Menu
+                            <i class="fas fa-bars"></i>
+                        </button>
+                        
+                        <div class="collapse navbar-collapse" id="navbarResponsive">
+                            <ul class="navbar-nav ml-auto">
+                                                                <li class="nav-item custom-button">
+                                    <div class="loginbxo cursorpointer" id="cursorpointer" onclick="location.href ='https://www.instadriver.co/jobs'" 
+                                    style="background-color: white;color:#3B3B3B; border: 2px solid #212529;font-weight: 300"> Jobs</div>
+                                </li>
+                                <li class="nav-item" id="custom-button">
+                                    <div class="loginbxo cursorpointer" id="cursorpointer" onclick="location.href ='https://www.instadriver.co/social'" 
+                                    style="background-color: white;color:#3B3B3B; border: 2px solid #212529;font-weight: 300">Get Social</div>
+                                </li>
+                                <li class="nav-item" id="custom-button">
+
+                       
+                                <div class="loginbxo cursorpointer default" id="cursorpointer" onclick="location.href ='https://www.instadriver.co/login-user'" 
+                                    style="background-color: white;color:#3B3B3B; border: 2px solid #212529;font-weight: 300;">Sign in
+                                </div>
+                           
+                                </li>
+                                <li class="nav-item d-lg-none" style="list-style-type:none;">
+                                  <ul class="menuList">
+                                        <li>  <a class="" href="https://www.instadriver.co"> Home</a></li>
+                                          <li>  <a class="" href="https://www.instadriver.co/about_us">About InstaDriver</a></li>
+                                          <li>  <a class="" href="https://www.instadriver.co/verified_search">Verified Search (For Employers & Drivers)</a></li>
+                                          <li>  <a class="" href="https://www.instadriver.co/top_ad_features">Top Ad Feature (For Drivers)</a></li>
+<!--                                            <a class="dropdown-item" href="#">Po Pro le (For Drivers)</a>-->
+                                         <li>   <a class="" href="https://www.instadriver.co/faq">FAQs</a></li>
+                                         <li>   <a class="" href="https://www.instadriver.co/contact_us">Contact Us</a></li>
+                                                                             </ul>
+                                 </li>
+                                 
+                                 
+                                                                <li class="nav-item">
+                                    <div class="dropdown mt-2 d-none d-sm-none d-lg-block">
+                                        <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Menu&nbsp;&nbsp;<img src="https://www.instadriver.co/img/menu.svg">
+                                        </button>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                            <a class="dropdown-item" href="https://www.instadriver.co"> Home</a>
+                                            <a class="dropdown-item" href="https://www.instadriver.co/about_us">About InstaDriver</a>
+                                            <a class="dropdown-item" href="https://www.instadriver.co/verified_search">Verified Search (For Employers & Drivers)</a>
+                                            <a class="dropdown-item" href="https://www.instadriver.co/top_ad_features">Top Ad Feature (For Drivers)</a>
+<!--                                            <a class="dropdown-item" href="#">Po Pro le (For Drivers)</a>-->
+                                            <a class="dropdown-item" href="https://www.instadriver.co/faq">FAQs</a>
+                                            <a class="dropdown-item" href="https://www.instadriver.co/contact_us">Contact Us</a>
+                                            
+                                            
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="container-fluid cs-top">
+            <div class="row">
+                <div class="col-lg-12 blkstrip">
+                    <div class="container">
+                        <div class="fr">
+<!--                        <img src="https://www.instadriver.co/img/callgray.svg"><a class="call cursor-default" href="javascript:void(0);">&nbsp; &nbsp;+254722334455, +254711887754</a>-->
+                        <img src="https://www.instadriver.co/img/message.svg"><a class="call" href="mailto:saysomething@instadriver.co">&nbsp; &nbsp;saysomething@instadriver.co</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Page Content Start -->
+        <div id="content">
+            <section class="searchbg title" >
+   <div class="container">
+     PAGE NOT FOUND
+   </div>
+</section>
+<div class="container">
+   <div class="row">
+      <div class="col-lg-12 text-left mt-3 mb-3 pb-3">
+          <center><a href="https://www.instadriver.co"><img src="/images/404.jpg" class="width_75"></a></center>
+      </div>
+   </div>
+</div>
+        </div>
+
+        <!-- footer -->
+        <section class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center"><img src="https://www.instadriver.co/img/footerlogo.svg"></div>
+                    <div class="col-md-3 col-sm-6 text-left spacing">
+                        <h4 class="service-heading text-left">Useful links</h4>
+                        <a class="links" href="https://www.instadriver.co/about_us">About InstaDriver<br></a>
+                        <a class="links" href="https://www.instadriver.co/verified_search">Verified Search (For Employers & Drivers)<br></a>
+                        <a class="links" href="https://www.instadriver.co/top_ad_features">Top Ad Feature (For Drivers)</a>
+                    </div>
+                    <div class="col-md-2 col-sm-6 text-left spacing">
+                        <h4 class="service-heading text-left">Useful links</h4>
+                        <!--               <a class="links" href="#">Post Profile (For Drivers)<br></a>-->
+                        <a class="links" href="https://www.instadriver.co/login">Driver Sign In<br></a>
+                        <a class="links" href="https://www.instadriver.co/register">Driver Sign Up</a>
+                        <a class="links" href="https://www.instadriver.co/employer-login">Employer Sign in</a>
+                        <a class="links" href="https://www.instadriver.co/register/employer">Employer Sign up</a>
+                    </div>
+                    <div class="col-md-2 col-sm-6 text-left spacing">
+                        <h4 class="service-heading text-left">Useful links</h4>
+                        <a class="links" href="https://www.instadriver.co/faq">FAQs<br></a>
+                        <a class="links" href="https://www.instadriver.co/contact_us">Contact Us<br></a>
+                        <a class="links" href="https://www.instadriver.co/terms_conditions">Terms & Conditions</a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 text-left spacing">
+                        <h4 class="service-heading text-left">Social Media</h4>
+                        <a class="links" href="#">
+                            <ul>
+                                <li class="list-inline-item">
+                                    <a href="https://www.facebook.com/instadrivers" target="_blank">
+                                        <img src="https://www.instadriver.co/img/facebook.svg">
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://twitter.com/Instadriver1"  target="_blank">
+                                        <img src="https://www.instadriver.co/img/twitter.svg">
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://www.youtube.com/channel/UCIyNdSi0KEi0mIGblffLkpg/featured?disable_polymer=1" target="_blank">
+                                        <img src="https://www.instadriver.co/img/youtube.svg">
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://www.instagram.com/instadriverx/" target="_blank">
+                                        <img src="https://www.instadriver.co/img/instagram.svg">
+                                    </a>
+                                </li>
+                            </ul>
+                            <br></a>
+                    </div>
+                    <div class="col-md-2 col-sm-6 text-left spacing">
+                        <h4 class="service-heading text-left">Contact Info</h4>
+<!--                        +254722334455
+                        +254711887754<br>-->
+                        <a class="links" href="mailto:saysomething@instadriver.co">saysomething@instadriver.co</a>
+                    </div>
+                </div>
+        </section>
+        <!-- Bootstrap core JavaScript -->
+        <script> var SITEROOT = 'https://www.instadriver.co/'; var UID = '0';</script>
+        <script src="https://www.instadriver.co/plugins/jquery/jquery.min.js"></script>
+        <script src="https://www.instadriver.co/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <!-- Plugin JavaScript -->
+        <script src="https://www.instadriver.co/plugins/jquery-easing/jquery.easing.min.js"></script>
+        <!-- Custom scripts for this template -->
+        <script src="https://www.instadriver.co/js/agency.min.js"></script>      
+        <!-- bootbox -->
+        <script src="https://www.instadriver.co/plugins/bootbox/bootbox.js"></script>
+        <!-- Toast -->
+        <script src="https://www.instadriver.co/plugins/toast/jquery.toast.js"></script>
+        <!-- Remote -->
+        <script src="https://www.instadriver.co/js/remote.js"></script>
+        <script src="https://www.instadriver.co/plugins/validate/jquery.validate.min.js" type="text/javascript"></script>
+        <script src="https://www.instadriver.co/plugins/validate/additional-methods.js" type="text/javascript"></script>
+        <script>
+            
+        </script>
+        <!-- Page SCRIPT  -->
+    </body>
+</html>

@@ -1,0 +1,17 @@
+.emoji-mart {
+  position: absolute !important;
+  bottom: 5rem !important;
+  left: 7rem !important;
+  z-index: 999 !important;
+}
+
+#chatInput {
+  max-height: 300px;
+  height: 100%;
+}
+
+.postform-grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 1rem;
+}

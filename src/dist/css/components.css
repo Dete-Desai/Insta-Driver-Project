@@ -1,0 +1,515 @@
+/* ---------------------------------------------------- */
+
+/* -------------------Profile Card 1------------------- */
+
+/* ---------------------------------------------------- */
+
+.our-team {
+  padding: 30px 0 40px;
+  margin-bottom: 30px;
+  background-color: #b7ecf3;
+  text-align: center;
+  overflow: hidden;
+  height: 250%;
+  width: 120%;
+}
+
+.our-team .picture {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  margin-bottom: 50px;
+  z-index: 1;
+  position: relative;
+}
+
+.our-team .picture::before {
+  content: "";
+  width: 100%;
+  height: 0;
+  border-radius: 50%;
+  background-color: #f7f5ec;
+  position: absolute;
+  bottom: 135%;
+  right: 0;
+  left: 0;
+  opacity: 0.9;
+  transform: scale(3);
+  transition: all 0.3s linear 0s;
+}
+
+.our-team:hover .picture::before {
+  height: 100%;
+}
+
+.our-team .picture::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: orange;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.our-team .picture img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  transform: scale(1);
+  transition: all 0.9s ease 0s;
+}
+
+.our-team:hover .picture img {
+  box-shadow: 0 0 0 14px #f7f5ec;
+  transform: scale(0.7);
+}
+
+.our-team .title {
+  display: block;
+  font-size: 15px;
+  color: #4e5052;
+  text-transform: capitalize;
+}
+
+.our-team .social {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #f7f5ec;
+  position: absolute;
+  bottom: -100px;
+  left: 0;
+  transition: all 0.5s ease 0s;
+}
+
+.our-team:hover .social {
+  bottom: 0;
+}
+
+.our-team .social li {
+  display: inline-block;
+}
+
+.our-team .social li a {
+  display: block;
+  padding: 10px;
+  font-size: 17px;
+  color: white;
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+}
+
+.our-team .social li a:hover {
+  color: #f7f5ec;
+  background-color: #f7f5ec;
+}
+
+/* ---------------------------------------------------- */
+
+/* -------------------Profile Card 2------------------- */
+
+/* ---------------------------------------------------- */
+
+.our-team1 {
+  padding: 30px 0 40px;
+  margin-bottom: 30px;
+  background-color: #ebf1f3;
+  text-align: center;
+  overflow: hidden;
+  height: 250%;
+  width: 120%;
+}
+
+.our-team1 .picture {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  margin-bottom: 50px;
+  z-index: 1;
+  position: relative;
+}
+
+.our-team1 .picture::before {
+  content: "";
+  width: 100%;
+  height: 0;
+  border-radius: 50%;
+  background-color: #ebf1f3;
+  position: absolute;
+  bottom: 135%;
+  right: 0;
+  left: 0;
+  opacity: 0.9;
+  transform: scale(3);
+  transition: all 0.3s linear 0s;
+}
+
+.our-team1:hover .picture::before {
+  height: 100%;
+}
+
+.our-team1 .picture::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: orange;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.our-team1 .picture img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  transform: scale(1);
+  transition: all 0.9s ease 0s;
+}
+
+.our-team1:hover .picture img {
+  box-shadow: 0 0 0 14px #ebf1f3;
+  transform: scale(0.7);
+}
+
+.our-team1 .title {
+  display: block;
+  font-size: 15px;
+  color: #4e5052;
+  text-transform: capitalize;
+}
+
+.our-team1 .social {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #ebf1f3;
+  position: absolute;
+  bottom: -100px;
+  left: 0;
+  transition: all 0.5s ease 0s;
+}
+
+.our-team1:hover .social {
+  bottom: 0;
+}
+
+.our-team1 .social li {
+  display: inline-block;
+}
+
+.our-team1 .social li a {
+  display: block;
+  padding: 10px;
+  font-size: 17px;
+  color: white;
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+}
+
+.our-team1 .social li a:hover {
+  color: #f7f5ec;
+  background-color: #ebf1f3;
+}
+
+/* ---------------------------------------------------- */
+
+/* -------------------Social Card------------------- */
+
+/* ---------------------------------------------------- */
+
+.collapse-content .fa.fa-heart:hover {
+  color: #f44336 !important;
+}
+
+.collapse-content .fa.fa-share-alt:hover {
+  color: #0d47a1 !important;
+}
+
+.social-card1 {
+  border: 2px solid rgb(202, 200, 196);
+  border-color: rgb(202, 200, 196);
+  border-radius: 20px;
+  max-width: 800px;
+  width: 100%;
+  max-height: 620px;
+  height: 100%;
+}
+
+.social-card2 {
+  border: 2px solid orange;
+  border-color: orange;
+  border-radius: 20px;
+  max-width: 800px;
+  width: 100%;
+  max-height: 620px;
+  height: 100%;
+}
+
+.social-card3 {
+  border: 2px solid rgb(202, 200, 196);
+  border-color: rgb(202, 200, 196);
+  border-radius: 20px;
+  max-width: 800px;
+  width: 100%;
+  max-height: 400px;
+  height: 100%;
+}
+
+.social-card4 {
+  border: 2px solid orange;
+  border-color: orange;
+  border-radius: 20px;
+  max-width: 805px;
+  width: 100%;
+  max-height: 950px;
+  height: 100%;
+}
+
+.social-comment-card1 {
+  border: 2px solid rgb(202, 200, 196);
+  border-color: rgb(202, 200, 196);
+  border-radius: 20px;
+  max-width: 800px;
+  width: 100%;
+  max-height: 350px;
+  height: 200%;
+  /* overflow-y: scroll; */
+}
+
+.social-comment-card2 {
+  border: 2px solid orange;
+  border-color: orange;
+  border-radius: 20px;
+  max-width: 800px;
+  width: 100%;
+  max-height: 300px;
+  width: 100%;
+}
+
+.card-size {
+  border: none;
+  border-radius: 30px;
+  width: 140%;
+  height: 100%;
+}
+
+.card-image-position {
+  left: 6%;
+}
+
+.card-social-position {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* left: 20%; */
+  color: #a9aaaa;
+}
+
+.card-social-position-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* left: 14%; */
+  color: #a9aaaa;
+}
+
+.card-social-position2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #a9aaaa;
+  background-color: white;
+}
+
+.card-image-size {
+  border: none;
+  border-radius: 20px;
+  max-width: 670px;
+  width: 100%;
+  max-height: 350px;
+  height: 100%;
+}
+
+/* .post-comment {
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(220, 233, 235);
+  text-align: center;
+  max-width: 670px;
+  width: 100%;
+  max-height: 100px;
+  height: 100%; */
+
+/* transform: translate(-5%, 10%) !important; */
+
+/* } */
+
+.post-comment {
+  border: none;
+  border-radius: 20px;
+  background-color: white;
+  text-align: center;
+  max-width: 670px;
+  width: 100%;
+  max-height: 250px;
+  height: 100%;
+  /* overflow-y: scroll; */
+  margin: 0;
+  /* transform: translate(-5%, 10%) !important; */
+}
+
+/* ---------------------------------------------------- */
+
+/* -------------------Search Bar------------------- */
+
+/* ---------------------------------------------------- */
+
+/* Search Bar */
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  border: 1px solid #E5E5E5;
+  background: #fff;
+  font-size: 17px;
+  border-radius: 0px 20px 20px 0px;
+  cursor: pointer;
+  color: #4a4e4c;
+  width: 180px;
+  height: 40px;
+  border-left: 0;
+  padding: 0px 10px;
+}
+
+.searchTerm:focus {
+  color: black;
+  outline: 0;
+}
+
+.searchButton {
+  border: 1px solid #E5E5E5;
+  background: #fff;
+  font-size: 17px;
+  color: orange;
+  border-radius: 20px 0px 0px 20px;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-right: 0;
+}
+
+/*Resize the wrap to see the search bar change!*/
+
+.wrap {
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Search Bar1 */
+
+.search1 {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm1 {
+  border: none;
+  border-left: none;
+  padding: 5px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 0 20px 20px 0;
+  outline: none;
+  color: #4a4e4c;
+  background-color: #e5f0f0;
+  width: 180px;
+  height: 46px;
+}
+
+.searchTerm1:focus {
+  color: black;
+}
+
+.searchButton1 {
+  border: none;
+  background: #e5f0f0;
+  text-align: center;
+  font-size: 23px;
+  color: orange;
+  border-radius: 20px 0px 0px 20px;
+  cursor: pointer;
+  width: 60px;
+  height: 45px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+
+.wrap1 {
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Search Bar1 */
+
+.search2 {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm2 {
+  border: none;
+  border-left: none;
+  padding: 5px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 0 20px 20px 0;
+  outline: none;
+  color: #4a4e4c;
+  background-color: #e5f0f0;
+  width: 180px;
+  height: 46px;
+}
+
+.searchTerm2:focus {
+  color: black;
+}
+
+.searchButton2 {
+  border: none;
+  background: #e5f0f0;
+  text-align: center;
+  font-size: 23px;
+  color: orange;
+  border-radius: 20px 0px 0px 20px;
+  cursor: pointer;
+  width: 60px;
+  height: 45px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+
+.wrap2 {
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

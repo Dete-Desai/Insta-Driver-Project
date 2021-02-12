@@ -1,0 +1,1 @@
+export const CHANGE_CURR_VIDEO = 'CHANGE_CURR_VIDEO';

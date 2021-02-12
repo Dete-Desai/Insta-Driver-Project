@@ -1,0 +1,30 @@
+import {v1 as uuid} from "uuid"; 
+export const dummyData = [
+  {
+    name: "uber",
+    id: uuid(),
+    type: "company",
+    moto: "We ignite opportunity by setting the world in motion",
+    jobs: 3,
+    posts: 5,
+    articles: 8,
+    website: "xyz.com",
+    contact: "225225225",
+    email: "uber@xyz.com",
+  },
+  {
+    name: "uba johnson",
+    id: uuid(),
+    type: "driver",
+    contact: "225225225",
+    available: false,
+    licence: 5,
+    experience: 5,
+    language: ["english", "swahili"],
+    connections: 55,
+    followers: 5,
+    following: 6,
+    groups: 10,
+    posts: 20,
+  },
+];

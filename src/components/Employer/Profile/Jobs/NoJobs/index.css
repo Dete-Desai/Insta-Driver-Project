@@ -1,0 +1,35 @@
+.message-no-data {
+  margin-top: 1rem;
+  opacity: 0.5;
+}
+.button-vacancy {
+  color: #fff;
+  margin-top: 2rem;
+}
+.button-vacancy .btn-label {
+  position: relative;
+  display: inline-block;
+  padding: 6px;
+  border-radius: 3px 0 0 3px;
+}
+.view-other-jobs {
+  border-color: rgb(201, 196, 196);
+  border-width: 2px;
+  font-weight: bolder;
+}
+@media only screen and (min-width: 992px) {
+  .view-other-jobs {
+    width: 400px;
+    margin-top: 2rem;
+  }
+  .no-data {
+    margin-top: 2rem;
+    margin-left: 7rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .view-other-jobs {
+    width: 250px;
+  }
+}

@@ -1,0 +1,71 @@
+.article-title {
+  font-size: 30px;
+}
+.article-url {
+  color: rgb(255, 194, 38);
+  cursor: pointer;
+}
+
+.article-url:hover {
+  text-decoration: none;
+  color: rgb(0, 190, 248);
+}
+
+.article-column {
+  padding-top: 3rem;
+}
+.article-column p {
+  font-weight: 400;
+  font-size: 20px;
+  padding-bottom: 1.5rem;
+}
+.article-post-date {
+  opacity: 0.5;
+}
+
+.section-heading {
+  font-size: 36px;
+  font-weight: 700;
+}
+.section-subheading {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.article-image {
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+
+.view-profile-avatar {
+  max-width: 160px;
+  width: 100%;
+  padding: 0.5rem;
+  display: inline-block;
+  margin-right: 1.5rem;
+  border: 1px solid #ebebeb;
+  background: #ffffff;
+  border-radius: 50%;
+}
+
+.view-profile-author-date {
+  color: #888888;
+  opacity: 0.8;
+}
+
+/* .view-profile-author {
+  line-height: -1.5rem;
+} */
+
+.view-profile-author p {
+  font-size: 1rem;
+  padding: 0;
+}
+
+@media only screen and (min-width: 992px) {
+  .article-post-date {
+    position: absolute;
+    left: 11.5rem;
+    margin-top: 6rem;
+  }
+}

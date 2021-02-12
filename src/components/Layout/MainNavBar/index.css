@@ -1,0 +1,73 @@
+.user-profile-dropdown-menu {
+  top: 3.5rem;
+  flex-direction: column;
+  width: 100%;
+  max-height: 150px;
+  min-width: 100px;
+  max-width: 200px;
+  padding: 0.5rem;
+  cursor: auto;
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #c2c2c2;
+  border-radius: 5px;
+}
+
+.user-profile-dropdown-menu > div {
+  width: 100%;
+  margin: 0.3rem 0;
+  padding: 0.7rem 0.3rem;
+  color: #141414;
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+}
+
+.user-profile-dropdown-menu > div:first-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.user-profile-dropdown-menu > div:first-child .fa-user,
+.user-profile-dropdown-menu > div:first-child .user-profile-image {
+  font-size: 1.5rem;
+  margin-right: 7px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  padding: 0.5rem;
+  color: #fff;
+  background-color: #c2c2c2;
+  border: 1px solid #c2c2c2;
+  transition: all 0.3s ease-in-out;
+}
+
+/* .user-profile-dropdown-menu > div:first-child .user-profile-image {
+} */
+
+.user-profile-dropdown-menu > div:hover {
+  background-color: #c2c2c2;
+}
+
+.user-profile-dropdown-menu > div:hover:first-child .fa-user,
+.user-profile-dropdown-menu > div:first-child .user-profile-image {
+  background-color: #fff;
+  color: #c2c2c2;
+}
+
+.user-profile-dropdown-icon::after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 50%;
+  right: 0.7rem;
+  margin-top: -0.5rem;
+  transform: rotate(225deg);
+  display: block;
+  border-left: 2.5px solid rgb(17, 17, 17);
+  border-top: 2.5px solid rgb(17, 17, 17);
+}

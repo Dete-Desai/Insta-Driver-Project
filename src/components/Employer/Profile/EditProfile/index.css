@@ -1,0 +1,188 @@
+.custom-h6 {
+  color: #575353;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 23.3px;
+}
+
+.custom-mt {
+  margin-top: 80px;
+}
+
+.faded-color {
+  color: #b0aeae;
+  font-size: 14px;
+  line-height: 21.75px;
+  font-weight: 400;
+}
+
+.text-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.insta-web {
+  background-color: #f5f5f5;
+  width: 100%;
+  padding: 8px;
+}
+
+.insta-web input {
+  width: 50%;
+  display: inline !important;
+}
+
+.custombtn {
+  color: #ffffff;
+  background: #3b3b3b 15%;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 14px;
+  margin-top: 10px;
+  margin-bottom: 18px;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.business-about textarea {
+  width: 100%;
+  height: 140px;
+  background-color: #f5f5f5;
+  padding-left: 10px;
+  padding-top: 10px;
+  border-radius: 5px;
+}
+
+.business-location .location {
+  background-color: #f5f5f5;
+  width: 50%;
+}
+
+#map-box {
+  width: 100%;
+  height: 335.43px;
+  background: #f5f5f5;
+  margin: 20px 0;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.lacation-input {
+  width: 70%;
+  background: #f5f5f5;
+}
+
+.business-cat-info > div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.business-cat-info input {
+  width: 67%;
+  margin: 10px 0;
+}
+
+.visibility-row {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 10px 10px;
+}
+
+.upper {
+  margin-top: 0;
+}
+
+.visibility-row input {
+  margin-right: 30px;
+  border-radius: 50%;
+  padding: 15px;
+}
+
+.visibility-row input:checked {
+  background-color: #ffbb00;
+  color: #ffbb00;
+}
+
+.custom-bg-input {
+  background: #f5f5f5;
+}
+
+.instahandler-popup {
+  position: absolute !important;
+  width: 70%;
+  top: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+
+  margin: auto;
+}
+
+.instahandler-popup .msg-content {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 21.75px;
+  color: #969393;
+  margin: 1rem 0;
+}
+
+.instahandler-popup .close-btn-x span {
+  border: 1.5px solid #f5f5f5;
+  background: #f5f5f5;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.instahandler-popup .business-url {
+  background: #edf5fa;
+  font-size: 15px;
+  padding: 5px 10px;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.instahandler-popup .business-url span {
+  color: #ffbb00;
+}
+
+.instahandler-popup .actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.instahandler-popup .actions button {
+  border: 1.5px solid #c4c4c4;
+  border-radius: 5px;
+  color: #5b5b5b;
+  font-size: 16px;
+  padding: 8px 10px;
+  background: #fff;
+}
+
+.instahandler-popup .actions button:focus {
+  outline-style: none;
+}
+
+.custombtn-disabled {
+  background-color: #bebebe;
+  cursor: not-allowed;
+}
+
+@media (max-width: 480px) {
+  .custom-mt {
+    margin-top: 50px;
+  }
+  .instahandler-popup {
+    left: 50px;
+  }
+  .instahandler-popup .actions button {
+    font-size: 14px;
+  }
+}

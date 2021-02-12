@@ -1,0 +1,125 @@
+@media only screen and (min-width: 992px) {
+  .user-profile-card {
+    border: none;
+    padding: 0 1rem 0 2rem;
+  }
+  .profile-image {
+    margin-top:-3rem;
+  }
+  .card-website {
+    width: 200px;
+    margin-left: -5rem;
+  }
+  .card-employer {
+    width: 200px;
+  }
+  .card-tagline {
+    margin-left: -5rem;
+  }
+  .meta-data-row {
+    margin-top: -5rem;
+}
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .user-profile-card {
+    border: none;
+  }
+  .card-website {
+    width: 200px;
+    margin-left: -7.5rem;
+  }
+  .card-employer {
+    width: 115px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .profile-image {
+    left: 7rem;
+    position: absolute;
+    bottom: 7.63rem;
+  }
+  .user-profile-card {
+    border: none;
+  }
+
+  .card-tagline {
+    margin-top: 4px;
+  }
+}
+.button-cp {
+  position: absolute;
+  top: 20px;
+  margin-left: 0;
+  padding-right: 30px;
+}
+.button-cp .btn-label {
+  position: relative;
+  left: -10px;
+  display: inline-block;
+  padding: 6px;
+  border-radius: 3px 0 0 3px;
+}
+.card-employer {
+  border-radius: 2px;
+  font-size: 18px;
+  font-weight: bold;
+  opacity: 0.8;
+  padding: 7px;
+  background: #F5F9FC;
+  box-shadow: 0px 0px 0px 1px #e0e0df;
+
+}
+.meta-data-row {
+  padding-top: 10px;
+}
+.card-tagline {
+  box-shadow: 0px 0px 0px 1px #e0e0df;
+  border-radius: 2px;
+  padding: 4px;
+  background: #F5F9FC;
+}
+.card-website {
+  padding: 7px 8px 1px 0px;
+  border-radius: 2px;
+  box-shadow: 0px 0px 0px 1px #e0e0df;
+  text-align: center;
+  background: #F5F9FC;
+}
+.card-website .card-website-label {
+  position: relative;
+  /* left: -10px; */
+  display: inline-block;
+}
+.card-website,
+.card-tagline .website-info {
+  font-size: 15px;
+  opacity: 0.5;
+}
+.profile-image .fa-stack {
+  color: #e9ecef;
+  top: 5rem;
+  right: 6rem;
+}
+.profile-image .fa-stack .fa-inverse {
+  color: #000;
+}
+.user-profile-card{
+  background: white;
+}
+
+.employer-cover {
+  width: 100%;
+  object-fit: cover;
+  height: 400px;
+}
+
+.user-avatar {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.fileInput {
+  display: none;
+}

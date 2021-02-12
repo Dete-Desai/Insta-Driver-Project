@@ -1,0 +1,20 @@
+.warning {
+  border-color: #ffc107;
+}
+.dialog-actions {
+  margin-top: -3rem;
+}
+@media only screen and (min-width: 992px) {
+  .warning {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .dialog-actions {
+    margin-right: -2rem;
+  }
+  .warning {
+    width: 250px;
+  }
+}

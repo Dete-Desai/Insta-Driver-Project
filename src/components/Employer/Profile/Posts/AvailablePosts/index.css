@@ -1,0 +1,115 @@
+@media only screen and (min-width: 992px) {
+  #card {
+    /* margin-left: 10rem; */
+    background-color: unset;
+  }
+  .post-meta-header {
+    padding-left: 4rem;
+    padding-top: 0.8rem;
+  }
+  .post-meta-header-icon {
+    padding-right: 2rem;
+  }
+  #card {
+    margin-bottom: 2rem;
+  }
+  .showMoreBtn {
+    margin-left: 10rem;
+  }
+}
+
+#card {
+  margin-top: 2rem;
+  background: #fff;
+  max-width: 700px;
+  width: 100%;
+}
+.posted-title {
+  font-size: small;
+  font-weight: bolder;
+}
+.hrs-posted {
+  opacity: 0.5;
+  font-size: small;
+}
+.card-header-post {
+  background: unset;
+  border: none;
+}
+.card-body-post {
+  background: #edf5fa;
+  border-radius: 12px;
+  padding: 20px;
+}
+.card-footer-post {
+  background: inherit;
+  border: none;
+}
+.read-more {
+  font-size: large;
+  color: #ffbb00;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+.WithStyles\(ForwardRef\(Accordion\)\)-root-31 {
+  box-shadow: none;
+}
+
+.expandMoreBtn {
+  color: rgb(224 221 221);
+  font-size: 40px !important;
+  cursor: pointer;
+}
+
+.pinPost {
+  display: inline-block;
+  padding: 10px 2px;
+}
+
+/* .pinPost:hover {
+  background-color: gray !important;
+} */
+
+.pinImg {
+  width: 25px;
+}
+
+.popup-pin-box {
+  width: 300px;
+  height: 140px;
+}
+
+.pinDropAlign {
+  left: -300px !important;
+  top: -25px !important;
+}
+
+.available-post-dropdown {
+  position: absolute;
+  z-index: 20;
+  background: #ffffff;
+  border: 0.5px solid #6b6565;
+  width: 100%;
+  max-width: 315px;
+  height: 100%;
+  min-height: 145px;
+  right: 2rem;
+  top: 3.5rem;
+  padding: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 5px;
+  display: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.available-post-dropdown.show {
+  display: flex;
+}
+
+.postcontainer-grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 1rem;
+}

@@ -1,0 +1,7 @@
+//------------INSTADRIVER APPLICATION-------------\\
+1. Clone the project from the github repository
+Redirect to the (src) folder
+3. Run this command "<my_computer ~ src> $ npm install"
+4. Run this command "<my_computer ~ src> $ npm install --no-optional"
+4. Then Run "<my_computer ~ src> $ sudo npm start"
+5. Hooks structure rafcp

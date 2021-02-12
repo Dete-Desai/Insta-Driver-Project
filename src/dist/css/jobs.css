@@ -1,0 +1,292 @@
+.custom-colored-buttons:focus{
+    background-color: #F8DB00;
+ }
+ .custom-colored-buttons:visited{
+    background-color: #F8DB00;
+ }
+
+
+
+.w-90{
+     border-radius: 50%;
+     width: 160px;
+     height: auto;
+     position: absolute;
+     top: 10%;
+     left: 20%;
+     transform: translate(50%, 10%);
+}
+
+.p {
+overflow-wrap: break-word;
+}
+
+.expand-this{
+ overflow-wrap: break-word;
+}
+
+.openspace{
+height: 70px;
+}
+
+.non-box {
+border: 1px solid white;
+text-align: center;
+margin: 0 auto;
+background-color: #EFEFEF !important;
+color: #5B5B5B;
+width: 171px;
+font-size:15px;
+border-radius:30px;
+text-overflow: ellipsis;
+white-space: nowrap;
+overflow: hidden;
+height: 30px;
+font-weight: 500;
+font-family: 'Rubik';
+}
+
+/* .non-box:hover{
+overflow: visible; 
+white-space: normal; 
+width: 196px;
+height:40px;
+} */
+
+
+.inactiveLink {
+ pointer-events: none;
+ cursor: default;
+}
+
+a .inactiveLink:hover {
+pointer-events: none !important;
+}
+
+#nav-item a.active {
+border-bottom-color: #FFBB00;
+border-bottom: 5px solid #FFBB00;
+}
+
+#nav-item a.inactive {
+background-color: inherit;
+}
+
+#nav-tab a.hover {
+background-color: none;
+}
+
+
+.center-this{
+margin-left: 450px;
+}
+
+
+
+.card:hover{
+transform: scale(1.05);
+box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.spacd{
+  height: 65px;
+}
+
+.mb5{
+  width: 110%;
+  margin-left:-45px;
+}
+
+.custom-hr-tag{
+  margin: 0 auto;
+  width:450px;
+  background: #AEAEAE;
+  height:0.3px;
+  font-weight:400;
+}
+
+#myTab{
+  margin: 0 auto;
+  width: 420px;
+}
+
+.no-active-cards{
+  border-radius:10px;
+  border:0.5px solid #c5c0c0;
+  max-width:1000px;
+  margin:0 auto
+}
+
+.card-text{
+  text-align: center!important;
+  font-size:15px;
+  max-width: 100%;
+  font-family: 'Rubik';
+  
+}
+
+/* .mainrow{
+  width: 110%;
+} */
+
+  .driving-jobs{
+  color:#4B4747;
+  font-weight:500;
+  font-size: 17px;
+}
+.hire-driver{
+  color:#4B4747;
+  font-weight:500;
+  font-size: 17px;
+}
+
+#nav-item a:active{
+  border-bottom-color: #FFBB00;
+  border-bottom: 5px solid #FFBB00;
+}
+
+.maintable{
+  max-width:316px;margin-left:-10px;border-collapse: separate;border-spacing:10px 20px;
+}
+
+.top-card-header{
+  max-width:366px;position: relative;right:10px;
+}
+
+.mainjob-ad{
+  max-width: 366px;
+  border:1px solid #FED136;
+  border-radius:15px; height:490px;
+  box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+  transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,
+  .3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+}
+
+
+/* mobile responsive here */
+@media only screen and (min-width: 1440px) {
+.mainrow{
+    width:1300px;
+    position: relative;
+    right: 50px;
+}
+.driving-jobs{
+  color:#4B4747;
+  font-weight:500;
+  position: relative;
+  left:120px;
+}
+.hire-driver{
+  color:#4B4747;
+  font-weight:500;
+  position: relative;
+  left:30px;
+}
+}
+
+@media only screen and (min-width: 1280px) {
+.mainrow{
+    width:1300px;
+    position: relative;
+    right: 75px;
+}
+.driving-jobs{
+  color:#4B4747;
+  font-weight:500;
+  position: relative;
+  left:120px;
+}
+.hire-driver{
+  color:#4B4747;
+  font-weight:500;
+  position: relative;
+  left:30px;
+}
+}
+
+@media only screen and (max-width: 1280px){
+  .driving-jobs{
+  font-size: 14.0px;
+}
+.hire-driver{
+  font-size: 14.0px;
+}
+}
+
+@media only screen and (max-width: 1264px) {
+    .top-card-header{
+      max-width:366px;
+      position: relative;
+      right:10px;
+    }
+}
+
+ @media only screen and (min-width: 519px){
+  .drivers-interest{
+    margin-left:0px;
+  }
+}
+
+@media only screen and (max-width: 575px){
+  .postedby{
+    position: relative;
+    left: 50px;
+  }
+}
+
+@media only screen and (max-width: 440px){
+  .maintable{
+    margin-left:-20px;
+  }
+}
+
+@media only screen and (max-width: 414px){
+  .maintable{
+    margin-left:-25px;
+  }
+}
+
+@media only screen and (max-width: 400px){
+    /* .mainjob-ad{
+      width: 22rem;
+      position: relative;
+      right: 40px;
+    } */
+}
+
+  @media only screen and (max-width: 391px){
+  .postedby{
+    position: relative;
+    left: 35px;
+    top:5px;
+    font-size: 13px !important;
+  }
+  /* .top-card-header{
+    left:15px;
+  } */
+}
+
+@media only screen and (max-width: 380px){
+  .driving-jobs{
+  font-size: 15.0px;
+}
+.hire-driver{
+  font-size: 15.0px;
+  margin-left: -25px;
+}
+.express-interest{
+  font-size: 14px;
+}
+}
+
+ @media only screen and (max-width: 360px){
+  .maintable{
+    margin-left:-55px;
+  }
+  
+  
+}
+
+
+
+

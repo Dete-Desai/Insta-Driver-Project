@@ -1,0 +1,10 @@
+.see-all-post {
+  border: none !important;
+  color: white !important;
+  text-align: center;
+  font-size: 16px;
+  background: #FFBB00;
+  border-radius: 5px;
+  padding: 12px 20px;
+  font-weight: bold;
+}

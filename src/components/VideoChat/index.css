@@ -1,0 +1,270 @@
+
+/* Video call route */
+.bg-gray {
+  background-color: #efefef
+}
+
+.video-call-vectors {
+  position: relative;
+  width: 100% !important;
+  height: 100%;
+}
+
+.curved-image-one, .curved-image-two, .curved-image-three {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.curved-image-one {
+  width: 100%;
+  margin: 0;
+  object-fit: contain;
+  margin-left: -74px;
+}
+
+.curved-image-two {
+  width: 88%;
+  margin: 0;
+  margin-left: -70px;
+  object-fit: contain;
+}
+
+.curved-image-three {
+  width: 93%;
+  margin: 0;
+  object-fit: contain;
+  margin-left: -70px;
+}
+
+.social-connect {
+  position: absolute;
+  color: #fff;
+  font-size: 20px;
+  z-index: 1000;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  padding-left: 2rem;
+  padding-right: 8rem;
+}
+
+.image-iphone-div {
+  padding: 3rem;
+  width: 100%;
+  height: 100%;
+}
+
+.image-iphone {
+  height: 500px;
+  object-fit: fill;
+}
+
+.video-signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  padding: 2rem;
+}
+
+.video-signup .video-signup-text {
+  font-size: 27px;
+  font-weight: 700;
+  text-align: left;
+  padding: 1rem 5rem;
+}
+
+.video-signup .video-signup-link {
+  padding: 6px;
+  color: #000;
+  background-color: #ffbb00;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.other-than {
+  padding: 3rem 2rem;
+  font-size: 22px;
+  font-weight: 600;
+  text-align: left;
+  color: #5B5B5B;
+}
+
+.tap-the-profile {
+  padding: 1rem;
+  font-size: 17px;
+  color: #000 45%;
+}
+
+.users-call-container {
+  display: grid;
+  grid-template-columns:repeat(2, 1fr);
+}
+
+.users-call-container .users-call-box {
+  width: 123.8px;
+  height: 123.8px;
+  border-radius: 2px;
+  margin-bottom: 10px;
+  margin-right: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 11px;
+  padding: 10px 0;
+}
+
+.users-call-container .users-call-box:hover {
+  border-radius: 10px;
+  background-color: #ffbb00;
+  color: #fff;
+  cursor: pointer;
+}
+
+.users-call-container .users-call-box:hover .user-name{
+  color: #000000
+}
+
+.users-call-container .users-call-box:hover .user-location{
+  color: #fff
+}
+
+.users-call-container .users-call-box .users-call-box-img {
+  width: 4rem;
+  height: 4rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.users-call-container .users-call-box .user-name {
+  font-weight: 800;
+}
+
+.users-call-container .users-call-box .username {
+  font-size: 10px;
+}
+
+.users-call-container .users-call-box .user-location {
+  margin-top: 2px;
+  border-top: .5px solid #ccc;
+  color: #ffbb00;
+  font-weight: 700;
+}
+
+#map-box-2 {
+  width: 100%;
+  height: 420px;
+  background: #f5f5f5;
+}
+
+.conference-img-box {
+  padding: 3rem;
+  width: 100%;
+}
+
+.conference-img {
+  width: 100%;
+}
+
+.conference-text {
+  text-align: left;
+  padding: 6rem;
+  font-size: 25px;
+  font-weight: 500;
+  color: #5B5B5B;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 900px) {
+  .video-signup .video-signup-text {
+    font-size: 17.5px;
+    padding: 1rem 2rem;
+  }
+  .users-call-container {
+    display: grid;
+    grid-template-columns:repeat(1, 1fr);
+  }
+  .social-connect {
+    font-size: 16px;
+    padding: 1rem;
+  }
+  .social-connect {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: .5rem;
+    padding-right: 6rem;
+    font-size: 12px;
+  }
+  .other-than {
+    padding: 3rem .8rem;
+    font-size: 20px;
+  }
+  .conference-text {
+    padding: 4rem;
+    font-size: 18px;
+  } 
+  .image-iphone {
+    height: 400px;
+  }
+}
+
+@media (max-width: 538px) {
+  .users-call-container {
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+  }
+  .image-iphone {
+    height: 400px;
+  }
+}
+
+@media (max-width: 480px) {
+  .social-connect {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: .5rem;
+    padding-right: 8rem;
+    font-size: 20px;
+  }
+  .image-iphone-div {
+    padding-top: 450px;
+  }
+  .other-than {
+    font-size: 17px;
+  }
+  .tap-the-profile {
+    font-size: 15px;
+  }
+  .image-iphone {
+    height: 400px;
+  }
+}
